@@ -1,0 +1,33 @@
+# Conda environment for the EPIG active learning benchmark.
+#
+#   conda env create -f environment.yml      # creates the pinned environment
+#   conda activate epig-al
+#
+# The final `pip: -e .` line installs this repository as an editable package
+# (`epig_al`), so `import epig_al` works from anywhere.  Run the command from
+# the repository root so the relative path resolves.
+#
+# Versions are exact pins matching the environment used for the released
+# analyses and tests. matplotlib is installed through pip because the exact
+# 3.10.8 build is published on PyPI but not on conda-forge.
+name: epig-al
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.8
+  # --- core: method layer + released-result reproduction ---
+  - numpy=1.26.4
+  - scipy=1.17.0
+  - scikit-learn=1.8.0
+  - pandas=3.0.0
+  - xgboost=3.1.3   # model of the qualitative Wittig study
+  - pip
+  - pytest=9.1.1
+  - pip:
+      # conda-env invokes this pip phase with --upgrade; repeat the validated
+      # NumPy pin so the editable package's numpy>=1.24 floor cannot upgrade it.
+      - numpy==1.26.4
+      - matplotlib==3.10.8  # released figures and figure scripts
+      - ipykernel==6.29.5   # kernel for notebooks/ (attach any Jupyter front end)
+      - nbclient==0.10.2    # headless notebook execution, as used to verify notebooks/
+      - -e .

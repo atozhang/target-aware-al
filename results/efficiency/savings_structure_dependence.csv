@@ -1,0 +1,4 @@
+metric,method,excludes_zero_cluster,excludes_zero_task,excludes_zero_hierarchical
+n_reactions,IndvNN,True,False,False
+n_reactions,NN,False,True,False
+pct_pool,NN,False,True,False

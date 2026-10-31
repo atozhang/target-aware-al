@@ -1,0 +1,591 @@
+dataset,split_id,split_family,acquisition_function,acquisition_function_id,pool_total,budget_reactions,target_score,attained,full_budget,n_reactions,pct_pool
+BH,bh_aryl_halide_holdout_00,Chemical Family Split,EPIG,epig_gauss,3692,1108,0.352528137840275,True,False,219,5.931744312026
+BH,bh_aryl_halide_holdout_00,Chemical Family Split,BALD,bald,3692,1108,0.352528137840275,True,False,1076,29.1440953412784
+BH,bh_aryl_halide_holdout_00,Chemical Family Split,Indiv. NN,test_indv_nn,3692,1108,0.352528137840275,False,True,1108,30.0108342361863
+BH,bh_aryl_halide_holdout_00,Chemical Family Split,NN,nn,3692,1108,0.352528137840275,False,True,1108,30.0108342361863
+BH,bh_aryl_halide_holdout_00,Chemical Family Split,Random,random,3692,1108,0.352528137840275,True,False,741,20.0704225352113
+BH,bh_aryl_halide_holdout_01,Chemical Family Split,EPIG,epig_gauss,3691,1108,0.327856760795639,False,True,1108,30.0189650501219
+BH,bh_aryl_halide_holdout_01,Chemical Family Split,BALD,bald,3691,1108,0.327856760795639,True,False,146,3.95556759685722
+BH,bh_aryl_halide_holdout_01,Chemical Family Split,Indiv. NN,test_indv_nn,3691,1108,0.327856760795639,False,True,1108,30.0189650501219
+BH,bh_aryl_halide_holdout_01,Chemical Family Split,NN,nn,3691,1108,0.327856760795639,True,False,923,25.0067732321864
+BH,bh_aryl_halide_holdout_01,Chemical Family Split,Random,random,3691,1108,0.327856760795639,False,True,1108,30.0189650501219
+BH,bh_aryl_halide_holdout_02,Chemical Family Split,EPIG,epig_gauss,3691,1108,0.318324678272907,True,False,1074,29.0978054727716
+BH,bh_aryl_halide_holdout_02,Chemical Family Split,BALD,bald,3691,1108,0.318324678272907,True,False,1043,28.2579246816581
+BH,bh_aryl_halide_holdout_02,Chemical Family Split,Indiv. NN,test_indv_nn,3691,1108,0.318324678272907,False,True,1108,30.0189650501219
+BH,bh_aryl_halide_holdout_02,Chemical Family Split,NN,nn,3691,1108,0.318324678272907,False,True,1108,30.0189650501219
+BH,bh_aryl_halide_holdout_02,Chemical Family Split,Random,random,3691,1108,0.318324678272907,False,True,1108,30.0189650501219
+BH,bh_aryl_halide_holdout_03,Chemical Family Split,EPIG,epig_gauss,3691,1108,-0.148751767995665,False,True,1108,30.0189650501219
+BH,bh_aryl_halide_holdout_03,Chemical Family Split,BALD,bald,3691,1108,-0.148751767995665,True,False,993,26.9032782443782
+BH,bh_aryl_halide_holdout_03,Chemical Family Split,Indiv. NN,test_indv_nn,3691,1108,-0.148751767995665,False,True,1108,30.0189650501219
+BH,bh_aryl_halide_holdout_03,Chemical Family Split,NN,nn,3691,1108,-0.148751767995665,True,False,1083,29.341641831482
+BH,bh_aryl_halide_holdout_03,Chemical Family Split,Random,random,3691,1108,-0.148751767995665,False,True,1108,30.0189650501219
+BH,bh_aryl_halide_holdout_04,Chemical Family Split,EPIG,epig_gauss,3691,1108,0.616635294560229,True,False,66,1.78813329720943
+BH,bh_aryl_halide_holdout_04,Chemical Family Split,BALD,bald,3691,1108,0.616635294560229,True,False,185,5.01219181793552
+BH,bh_aryl_halide_holdout_04,Chemical Family Split,Indiv. NN,test_indv_nn,3691,1108,0.616635294560229,True,False,104,2.81766458954213
+BH,bh_aryl_halide_holdout_04,Chemical Family Split,NN,nn,3691,1108,0.616635294560229,True,False,211,5.71660796532105
+BH,bh_aryl_halide_holdout_04,Chemical Family Split,Random,random,3691,1108,0.616635294560229,True,False,305,8.26334326740721
+BH,bh_aryl_halide_holdout_05,Chemical Family Split,EPIG,epig_gauss,3691,1108,-0.107310995040911,True,False,360,9.75345434841506
+BH,bh_aryl_halide_holdout_05,Chemical Family Split,BALD,bald,3691,1108,-0.107310995040911,False,True,1108,30.0189650501219
+BH,bh_aryl_halide_holdout_05,Chemical Family Split,Indiv. NN,test_indv_nn,3691,1108,-0.107310995040911,True,False,217,5.87916553779464
+BH,bh_aryl_halide_holdout_05,Chemical Family Split,NN,nn,3691,1108,-0.107310995040911,True,False,181,4.90382010295313
+BH,bh_aryl_halide_holdout_05,Chemical Family Split,Random,random,3691,1108,-0.107310995040911,True,False,247,6.69195340016256
+BH,bh_aryl_halide_holdout_06,Chemical Family Split,EPIG,epig_gauss,3693,1108,-17.5662770147001,False,True,1108,30.002707825616
+BH,bh_aryl_halide_holdout_06,Chemical Family Split,BALD,bald,3693,1108,-17.5662770147001,False,True,1108,30.002707825616
+BH,bh_aryl_halide_holdout_06,Chemical Family Split,Indiv. NN,test_indv_nn,3693,1108,-17.5662770147001,False,True,1108,30.002707825616
+BH,bh_aryl_halide_holdout_06,Chemical Family Split,NN,nn,3693,1108,-17.5662770147001,True,False,173,4.68453831573247
+BH,bh_aryl_halide_holdout_06,Chemical Family Split,Random,random,3693,1108,-17.5662770147001,False,True,1108,30.002707825616
+BH,bh_aryl_halide_holdout_07,Chemical Family Split,EPIG,epig_gauss,3691,1108,-4.6716868508366,True,False,208,5.63532917908426
+BH,bh_aryl_halide_holdout_07,Chemical Family Split,BALD,bald,3691,1108,-4.6716868508366,False,True,1108,30.0189650501219
+BH,bh_aryl_halide_holdout_07,Chemical Family Split,Indiv. NN,test_indv_nn,3691,1108,-4.6716868508366,False,True,1108,30.0189650501219
+BH,bh_aryl_halide_holdout_07,Chemical Family Split,NN,nn,3691,1108,-4.6716868508366,False,True,1108,30.0189650501219
+BH,bh_aryl_halide_holdout_07,Chemical Family Split,Random,random,3691,1108,-4.6716868508366,True,False,220,5.96044432403143
+BH,bh_aryl_halide_holdout_08,Chemical Family Split,EPIG,epig_gauss,3691,1108,-2.94793140382859,False,True,1108,30.0189650501219
+BH,bh_aryl_halide_holdout_08,Chemical Family Split,BALD,bald,3691,1108,-2.94793140382859,False,True,1108,30.0189650501219
+BH,bh_aryl_halide_holdout_08,Chemical Family Split,Indiv. NN,test_indv_nn,3691,1108,-2.94793140382859,False,True,1108,30.0189650501219
+BH,bh_aryl_halide_holdout_08,Chemical Family Split,NN,nn,3691,1108,-2.94793140382859,False,True,1108,30.0189650501219
+BH,bh_aryl_halide_holdout_08,Chemical Family Split,Random,random,3691,1108,-2.94793140382859,True,False,8,0.216743429964779
+BH,bh_aryl_halide_holdout_09,Chemical Family Split,EPIG,epig_gauss,3691,1108,0.654943918115499,False,True,1108,30.0189650501219
+BH,bh_aryl_halide_holdout_09,Chemical Family Split,BALD,bald,3691,1108,0.654943918115499,False,True,1108,30.0189650501219
+BH,bh_aryl_halide_holdout_09,Chemical Family Split,Indiv. NN,test_indv_nn,3691,1108,0.654943918115499,True,False,96,2.60092115957735
+BH,bh_aryl_halide_holdout_09,Chemical Family Split,NN,nn,3691,1108,0.654943918115499,True,False,120,3.25115144947169
+BH,bh_aryl_halide_holdout_09,Chemical Family Split,Random,random,3691,1108,0.654943918115499,True,False,607,16.4454077485776
+BH,bh_aryl_halide_holdout_10,Chemical Family Split,EPIG,epig_gauss,3692,1108,0.515898464399383,False,True,1108,30.0108342361863
+BH,bh_aryl_halide_holdout_10,Chemical Family Split,BALD,bald,3692,1108,0.515898464399383,False,True,1108,30.0108342361863
+BH,bh_aryl_halide_holdout_10,Chemical Family Split,Indiv. NN,test_indv_nn,3692,1108,0.515898464399383,True,False,196,5.30877573131094
+BH,bh_aryl_halide_holdout_10,Chemical Family Split,NN,nn,3692,1108,0.515898464399383,True,False,206,5.57963163596966
+BH,bh_aryl_halide_holdout_10,Chemical Family Split,Random,random,3692,1108,0.515898464399383,False,True,1108,30.0108342361863
+BH,bh_aryl_halide_holdout_11,Chemical Family Split,EPIG,epig_gauss,3691,1108,0.619454128104703,True,False,117,3.1698726632349
+BH,bh_aryl_halide_holdout_11,Chemical Family Split,BALD,bald,3691,1108,0.619454128104703,True,False,221,5.98753725277702
+BH,bh_aryl_halide_holdout_11,Chemical Family Split,Indiv. NN,test_indv_nn,3691,1108,0.619454128104703,True,False,529,14.332159306421
+BH,bh_aryl_halide_holdout_11,Chemical Family Split,NN,nn,3691,1108,0.619454128104703,True,False,930,25.1964237334056
+BH,bh_aryl_halide_holdout_11,Chemical Family Split,Random,random,3691,1108,0.619454128104703,False,True,1108,30.0189650501219
+BH,bh_aryl_halide_holdout_12,Chemical Family Split,EPIG,epig_gauss,3691,1108,0.503317804030201,True,False,158,4.28068274180439
+BH,bh_aryl_halide_holdout_12,Chemical Family Split,BALD,bald,3691,1108,0.503317804030201,False,True,1108,30.0189650501219
+BH,bh_aryl_halide_holdout_12,Chemical Family Split,Indiv. NN,test_indv_nn,3691,1108,0.503317804030201,True,False,550,14.9011108100786
+BH,bh_aryl_halide_holdout_12,Chemical Family Split,NN,nn,3691,1108,0.503317804030201,False,True,1108,30.0189650501219
+BH,bh_aryl_halide_holdout_12,Chemical Family Split,Random,random,3691,1108,0.503317804030201,True,False,324,8.77810891357356
+BH,bh_aryl_halide_holdout_13,Chemical Family Split,EPIG,epig_gauss,3692,1108,0.630256729342488,True,False,136,3.68364030335861
+BH,bh_aryl_halide_holdout_13,Chemical Family Split,BALD,bald,3692,1108,0.630256729342488,True,False,350,9.47995666305526
+BH,bh_aryl_halide_holdout_13,Chemical Family Split,Indiv. NN,test_indv_nn,3692,1108,0.630256729342488,True,False,162,4.38786565547129
+BH,bh_aryl_halide_holdout_13,Chemical Family Split,NN,nn,3692,1108,0.630256729342488,True,False,720,19.501625135428
+BH,bh_aryl_halide_holdout_13,Chemical Family Split,Random,random,3692,1108,0.630256729342488,False,True,1108,30.0108342361863
+BH,bh_aryl_halide_holdout_14,Chemical Family Split,EPIG,epig_gauss,3691,1108,0.575947749445288,True,False,73,1.97778379842861
+BH,bh_aryl_halide_holdout_14,Chemical Family Split,BALD,bald,3691,1108,0.575947749445288,True,False,147,3.98266052560282
+BH,bh_aryl_halide_holdout_14,Chemical Family Split,Indiv. NN,test_indv_nn,3691,1108,0.575947749445288,True,False,119,3.22405852072609
+BH,bh_aryl_halide_holdout_14,Chemical Family Split,NN,nn,3691,1108,0.575947749445288,True,False,370,10.024383635871
+BH,bh_aryl_halide_holdout_14,Chemical Family Split,Random,random,3691,1108,0.575947749445288,True,False,381,10.3224058520726
+BH,bh_cluster_agglomerative_k8_cl0,Cluster Split,EPIG,epig_gauss,3083,925,0.782899682359171,True,False,149,4.83295491404476
+BH,bh_cluster_agglomerative_k8_cl0,Cluster Split,BALD,bald,3083,925,0.782899682359171,True,False,222,7.20077846253649
+BH,bh_cluster_agglomerative_k8_cl0,Cluster Split,Indiv. NN,test_indv_nn,3083,925,0.782899682359171,True,False,256,8.30360038923127
+BH,bh_cluster_agglomerative_k8_cl0,Cluster Split,NN,nn,3083,925,0.782899682359171,True,False,578,18.7479727538112
+BH,bh_cluster_agglomerative_k8_cl0,Cluster Split,Random,random,3083,925,0.782899682359171,True,False,370,12.0012974375608
+BH,bh_cluster_agglomerative_k8_cl1,Cluster Split,EPIG,epig_gauss,3148,945,0.782636249983336,True,False,194,6.16264294790343
+BH,bh_cluster_agglomerative_k8_cl1,Cluster Split,BALD,bald,3148,945,0.782636249983336,True,False,435,13.8182973316391
+BH,bh_cluster_agglomerative_k8_cl1,Cluster Split,Indiv. NN,test_indv_nn,3148,945,0.782636249983336,True,False,250,7.94155019059721
+BH,bh_cluster_agglomerative_k8_cl1,Cluster Split,NN,nn,3148,945,0.782636249983336,True,False,240,7.62388818297332
+BH,bh_cluster_agglomerative_k8_cl1,Cluster Split,Random,random,3148,945,0.782636249983336,True,False,659,20.9339263024142
+BH,bh_cluster_agglomerative_k8_cl2,Cluster Split,EPIG,epig_gauss,3035,911,0.531302108790219,True,False,280,9.22570016474465
+BH,bh_cluster_agglomerative_k8_cl2,Cluster Split,BALD,bald,3035,911,0.531302108790219,True,False,83,2.73476112026359
+BH,bh_cluster_agglomerative_k8_cl2,Cluster Split,Indiv. NN,test_indv_nn,3035,911,0.531302108790219,False,True,911,30.0164744645799
+BH,bh_cluster_agglomerative_k8_cl2,Cluster Split,NN,nn,3035,911,0.531302108790219,False,True,911,30.0164744645799
+BH,bh_cluster_agglomerative_k8_cl2,Cluster Split,Random,random,3035,911,0.531302108790219,True,False,413,13.6079077429984
+BH,bh_cluster_agglomerative_k8_cl3,Cluster Split,EPIG,epig_gauss,3031,910,-0.446502756461599,False,True,910,30.0230946882217
+BH,bh_cluster_agglomerative_k8_cl3,Cluster Split,BALD,bald,3031,910,-0.446502756461599,False,True,910,30.0230946882217
+BH,bh_cluster_agglomerative_k8_cl3,Cluster Split,Indiv. NN,test_indv_nn,3031,910,-0.446502756461599,False,True,910,30.0230946882217
+BH,bh_cluster_agglomerative_k8_cl3,Cluster Split,NN,nn,3031,910,-0.446502756461599,True,False,288,9.50181458264599
+BH,bh_cluster_agglomerative_k8_cl3,Cluster Split,Random,random,3031,910,-0.446502756461599,False,True,910,30.0230946882217
+BH,bh_cluster_agglomerative_k8_cl4,Cluster Split,EPIG,epig_gauss,3889,1167,0.489133626737229,True,False,121,3.11133967600926
+BH,bh_cluster_agglomerative_k8_cl4,Cluster Split,BALD,bald,3889,1167,0.489133626737229,True,False,601,15.4538441758807
+BH,bh_cluster_agglomerative_k8_cl4,Cluster Split,Indiv. NN,test_indv_nn,3889,1167,0.489133626737229,True,False,1076,27.6677809205451
+BH,bh_cluster_agglomerative_k8_cl4,Cluster Split,NN,nn,3889,1167,0.489133626737229,True,False,1096,28.1820519413731
+BH,bh_cluster_agglomerative_k8_cl4,Cluster Split,Random,random,3889,1167,0.489133626737229,True,False,633,16.2766778092055
+BH,bh_cluster_agglomerative_k8_cl5,Cluster Split,EPIG,epig_gauss,3823,1147,0.585343964558946,True,False,429,11.2215537535967
+BH,bh_cluster_agglomerative_k8_cl5,Cluster Split,BALD,bald,3823,1147,0.585343964558946,True,False,902,23.5940360973058
+BH,bh_cluster_agglomerative_k8_cl5,Cluster Split,Indiv. NN,test_indv_nn,3823,1147,0.585343964558946,False,True,1147,30.0026157467957
+BH,bh_cluster_agglomerative_k8_cl5,Cluster Split,NN,nn,3823,1147,0.585343964558946,False,True,1147,30.0026157467957
+BH,bh_cluster_agglomerative_k8_cl5,Cluster Split,Random,random,3823,1147,0.585343964558946,False,True,1147,30.0026157467957
+BH,bh_cluster_agglomerative_k8_cl6,Cluster Split,EPIG,epig_gauss,3787,1137,0.711581083720349,True,False,72,1.9012410879324
+BH,bh_cluster_agglomerative_k8_cl6,Cluster Split,BALD,bald,3787,1137,0.711581083720349,True,False,198,5.2284129918141
+BH,bh_cluster_agglomerative_k8_cl6,Cluster Split,Indiv. NN,test_indv_nn,3787,1137,0.711581083720349,True,False,44,1.16186955373647
+BH,bh_cluster_agglomerative_k8_cl6,Cluster Split,NN,nn,3787,1137,0.711581083720349,True,False,418,11.0377607604964
+BH,bh_cluster_agglomerative_k8_cl6,Cluster Split,Random,random,3787,1137,0.711581083720349,True,False,249,6.57512542909955
+BH,bh_cluster_agglomerative_k8_cl7,Cluster Split,EPIG,epig_gauss,3889,1167,-0.0323876843822179,False,True,1167,30.0077140653124
+BH,bh_cluster_agglomerative_k8_cl7,Cluster Split,BALD,bald,3889,1167,-0.0323876843822179,True,False,1010,25.9706865518128
+BH,bh_cluster_agglomerative_k8_cl7,Cluster Split,Indiv. NN,test_indv_nn,3889,1167,-0.0323876843822179,True,False,27,0.694265878117768
+BH,bh_cluster_agglomerative_k8_cl7,Cluster Split,NN,nn,3889,1167,-0.0323876843822179,True,False,177,4.55129853432759
+BH,bh_cluster_agglomerative_k8_cl7,Cluster Split,Random,random,3889,1167,-0.0323876843822179,False,True,1167,30.0077140653124
+BH,bh_paper_additive_plate3_extrapolation,Published Split,EPIG,epig_gauss,2515,755,0.67228735840359,True,False,67,2.66401590457256
+BH,bh_paper_additive_plate3_extrapolation,Published Split,BALD,bald,2515,755,0.67228735840359,True,False,185,7.3558648111332
+BH,bh_paper_additive_plate3_extrapolation,Published Split,Indiv. NN,test_indv_nn,2515,755,0.67228735840359,True,False,195,7.75347912524851
+BH,bh_paper_additive_plate3_extrapolation,Published Split,NN,nn,2515,755,0.67228735840359,True,False,683,27.1570576540755
+BH,bh_paper_additive_plate3_extrapolation,Published Split,Random,random,2515,755,0.67228735840359,True,False,133,5.2882703777336
+BH,tr_bh_000,Random Split,EPIG,epig_gauss,2769,831,0.741287679926903,True,False,207,7.47562296858071
+BH,tr_bh_000,Random Split,BALD,bald,2769,831,0.741287679926903,True,False,248,8.95630191404839
+BH,tr_bh_000,Random Split,Indiv. NN,test_indv_nn,2769,831,0.741287679926903,True,False,271,9.78692668833514
+BH,tr_bh_000,Random Split,NN,nn,2769,831,0.741287679926903,False,True,831,30.0108342361863
+BH,tr_bh_000,Random Split,Random,random,2769,831,0.741287679926903,True,False,281,10.1480678945468
+BH,tr_bh_001,Random Split,EPIG,epig_gauss,2769,831,0.754953148178542,True,False,228,8.23401950162514
+BH,tr_bh_001,Random Split,BALD,bald,2769,831,0.754953148178542,True,False,264,9.534127843987
+BH,tr_bh_001,Random Split,Indiv. NN,test_indv_nn,2769,831,0.754953148178542,True,False,306,11.0509209100758
+BH,tr_bh_001,Random Split,NN,nn,2769,831,0.754953148178542,False,True,831,30.0108342361863
+BH,tr_bh_001,Random Split,Random,random,2769,831,0.754953148178542,True,False,350,12.639942217407
+BH,tr_bh_002,Random Split,EPIG,epig_gauss,2769,831,0.744429097665344,True,False,232,8.37847598410979
+BH,tr_bh_002,Random Split,BALD,bald,2769,831,0.744429097665344,True,False,280,10.1119537739256
+BH,tr_bh_002,Random Split,Indiv. NN,test_indv_nn,2769,831,0.744429097665344,True,False,338,12.2065727699531
+BH,tr_bh_002,Random Split,NN,nn,2769,831,0.744429097665344,False,True,831,30.0108342361863
+BH,tr_bh_002,Random Split,Random,random,2769,831,0.744429097665344,True,False,305,11.0148067894547
+BH,tr_bh_003,Random Split,EPIG,epig_gauss,2769,831,0.767274264824986,True,False,218,7.87287829541351
+BH,tr_bh_003,Random Split,BALD,bald,2769,831,0.767274264824986,True,False,310,11.1953773925605
+BH,tr_bh_003,Random Split,Indiv. NN,test_indv_nn,2769,831,0.767274264824986,True,False,322,11.6287468400144
+BH,tr_bh_003,Random Split,NN,nn,2769,831,0.767274264824986,False,True,831,30.0108342361863
+BH,tr_bh_003,Random Split,Random,random,2769,831,0.767274264824986,True,False,273,9.85915492957746
+BH,tr_bh_004,Random Split,EPIG,epig_gauss,2769,831,0.739714637650477,True,False,178,6.42831347056699
+BH,tr_bh_004,Random Split,BALD,bald,2769,831,0.739714637650477,True,False,269,9.71469844709281
+BH,tr_bh_004,Random Split,Indiv. NN,test_indv_nn,2769,831,0.739714637650477,True,False,242,8.73961719032142
+BH,tr_bh_004,Random Split,NN,nn,2769,831,0.739714637650477,False,True,831,30.0108342361863
+BH,tr_bh_004,Random Split,Random,random,2769,831,0.739714637650477,True,False,262,9.46189960274467
+BH,tr_bh_005,Random Split,EPIG,epig_gauss,2769,831,0.747941879183985,True,False,203,7.33116648609606
+BH,tr_bh_005,Random Split,BALD,bald,2769,831,0.747941879183985,True,False,292,10.5453232213796
+BH,tr_bh_005,Random Split,Indiv. NN,test_indv_nn,2769,831,0.747941879183985,True,False,258,9.31744312026002
+BH,tr_bh_005,Random Split,NN,nn,2769,831,0.747941879183985,False,True,831,30.0108342361863
+BH,tr_bh_005,Random Split,Random,random,2769,831,0.747941879183985,True,False,289,10.4369808595161
+BH,tr_bh_006,Random Split,EPIG,epig_gauss,2769,831,0.756118661207088,True,False,221,7.981220657277
+BH,tr_bh_006,Random Split,BALD,bald,2769,831,0.756118661207088,True,False,261,9.42578548212351
+BH,tr_bh_006,Random Split,Indiv. NN,test_indv_nn,2769,831,0.756118661207088,True,False,286,10.3286384976526
+BH,tr_bh_006,Random Split,NN,nn,2769,831,0.756118661207088,False,True,831,30.0108342361863
+BH,tr_bh_006,Random Split,Random,random,2769,831,0.756118661207088,True,False,330,11.9176598049837
+BH,tr_bh_007,Random Split,EPIG,epig_gauss,2769,831,0.750828166557208,True,False,203,7.33116648609606
+BH,tr_bh_007,Random Split,BALD,bald,2769,831,0.750828166557208,True,False,272,9.8230408089563
+BH,tr_bh_007,Random Split,Indiv. NN,test_indv_nn,2769,831,0.750828166557208,True,False,288,10.4008667388949
+BH,tr_bh_007,Random Split,NN,nn,2769,831,0.750828166557208,False,True,831,30.0108342361863
+BH,tr_bh_007,Random Split,Random,random,2769,831,0.750828166557208,True,False,312,11.2676056338028
+BH,tr_bh_008,Random Split,EPIG,epig_gauss,2769,831,0.760148304418303,True,False,198,7.15059588299025
+BH,tr_bh_008,Random Split,BALD,bald,2769,831,0.760148304418303,True,False,297,10.7258938244854
+BH,tr_bh_008,Random Split,Indiv. NN,test_indv_nn,2769,831,0.760148304418303,True,False,286,10.3286384976526
+BH,tr_bh_008,Random Split,NN,nn,2769,831,0.760148304418303,False,True,831,30.0108342361863
+BH,tr_bh_008,Random Split,Random,random,2769,831,0.760148304418303,True,False,310,11.1953773925605
+BH,tr_bh_009,Random Split,EPIG,epig_gauss,2769,831,0.758086600317122,True,False,220,7.94510653665583
+BH,tr_bh_009,Random Split,BALD,bald,2769,831,0.758086600317122,True,False,265,9.57024196460816
+BH,tr_bh_009,Random Split,Indiv. NN,test_indv_nn,2769,831,0.758086600317122,True,False,288,10.4008667388949
+BH,tr_bh_009,Random Split,NN,nn,2769,831,0.758086600317122,False,True,831,30.0108342361863
+BH,tr_bh_009,Random Split,Random,random,2769,831,0.758086600317122,True,False,322,11.6287468400144
+BH,tr_bh_010,Random Split,EPIG,epig_gauss,2769,831,0.767140188404163,True,False,195,7.04225352112676
+BH,tr_bh_010,Random Split,BALD,bald,2769,831,0.767140188404163,True,False,284,10.2564102564103
+BH,tr_bh_010,Random Split,Indiv. NN,test_indv_nn,2769,831,0.767140188404163,True,False,339,12.2426868905742
+BH,tr_bh_010,Random Split,NN,nn,2769,831,0.767140188404163,False,True,831,30.0108342361863
+BH,tr_bh_010,Random Split,Random,random,2769,831,0.767140188404163,True,False,333,12.0260021668472
+BH,tr_bh_011,Random Split,EPIG,epig_gauss,2769,831,0.749644272465445,True,False,197,7.11448176236909
+BH,tr_bh_011,Random Split,BALD,bald,2769,831,0.749644272465445,True,False,297,10.7258938244854
+BH,tr_bh_011,Random Split,Indiv. NN,test_indv_nn,2769,831,0.749644272465445,True,False,262,9.46189960274467
+BH,tr_bh_011,Random Split,NN,nn,2769,831,0.749644272465445,False,True,831,30.0108342361863
+BH,tr_bh_011,Random Split,Random,random,2769,831,0.749644272465445,True,False,274,9.89526905019863
+BH,tr_bh_012,Random Split,EPIG,epig_gauss,2769,831,0.756812215095104,True,False,206,7.43950884795955
+BH,tr_bh_012,Random Split,BALD,bald,2769,831,0.756812215095104,True,False,300,10.8342361863489
+BH,tr_bh_012,Random Split,Indiv. NN,test_indv_nn,2769,831,0.756812215095104,True,False,271,9.78692668833514
+BH,tr_bh_012,Random Split,NN,nn,2769,831,0.756812215095104,False,True,831,30.0108342361863
+BH,tr_bh_012,Random Split,Random,random,2769,831,0.756812215095104,True,False,276,9.96749729144095
+BH,tr_bh_013,Random Split,EPIG,epig_gauss,2769,831,0.749054967905776,True,False,215,7.76453593355002
+BH,tr_bh_013,Random Split,BALD,bald,2769,831,0.749054967905776,True,False,277,10.0036114120621
+BH,tr_bh_013,Random Split,Indiv. NN,test_indv_nn,2769,831,0.749054967905776,True,False,302,10.9064644275912
+BH,tr_bh_013,Random Split,NN,nn,2769,831,0.749054967905776,False,True,831,30.0108342361863
+BH,tr_bh_013,Random Split,Random,random,2769,831,0.749054967905776,True,False,308,11.1231491513182
+BH,tr_bh_014,Random Split,EPIG,epig_gauss,2769,831,0.761492445075648,True,False,188,6.78945467677862
+BH,tr_bh_014,Random Split,BALD,bald,2769,831,0.761492445075648,True,False,248,8.95630191404839
+BH,tr_bh_014,Random Split,Indiv. NN,test_indv_nn,2769,831,0.761492445075648,True,False,314,11.3398338750451
+BH,tr_bh_014,Random Split,NN,nn,2769,831,0.761492445075648,False,True,831,30.0108342361863
+BH,tr_bh_014,Random Split,Random,random,2769,831,0.761492445075648,True,False,332,11.9898880462261
+BH,tr_bh_015,Random Split,EPIG,epig_gauss,2769,831,0.747529991705381,True,False,201,7.25893824485374
+BH,tr_bh_015,Random Split,BALD,bald,2769,831,0.747529991705381,True,False,373,13.4705669916938
+BH,tr_bh_015,Random Split,Indiv. NN,test_indv_nn,2769,831,0.747529991705381,True,False,281,10.1480678945468
+BH,tr_bh_015,Random Split,NN,nn,2769,831,0.747529991705381,False,True,831,30.0108342361863
+BH,tr_bh_015,Random Split,Random,random,2769,831,0.747529991705381,True,False,300,10.8342361863489
+BH,tr_bh_016,Random Split,EPIG,epig_gauss,2769,831,0.747263424816528,True,False,186,6.71722643553629
+BH,tr_bh_016,Random Split,BALD,bald,2769,831,0.747263424816528,True,False,251,9.06464427591188
+BH,tr_bh_016,Random Split,Indiv. NN,test_indv_nn,2769,831,0.747263424816528,True,False,292,10.5453232213796
+BH,tr_bh_016,Random Split,NN,nn,2769,831,0.747263424816528,False,True,831,30.0108342361863
+BH,tr_bh_016,Random Split,Random,random,2769,831,0.747263424816528,True,False,304,10.9786926688335
+BH,tr_bh_017,Random Split,EPIG,epig_gauss,2769,831,0.759853366472845,True,False,185,6.68111231491513
+BH,tr_bh_017,Random Split,BALD,bald,2769,831,0.759853366472845,True,False,282,10.1841820151679
+BH,tr_bh_017,Random Split,Indiv. NN,test_indv_nn,2769,831,0.759853366472845,True,False,261,9.42578548212351
+BH,tr_bh_017,Random Split,NN,nn,2769,831,0.759853366472845,False,True,831,30.0108342361863
+BH,tr_bh_017,Random Split,Random,random,2769,831,0.759853366472845,True,False,266,9.60635608522932
+BH,tr_bh_018,Random Split,EPIG,epig_gauss,2769,831,0.741722334028023,True,False,203,7.33116648609606
+BH,tr_bh_018,Random Split,BALD,bald,2769,831,0.741722334028023,True,False,260,9.38967136150235
+BH,tr_bh_018,Random Split,Indiv. NN,test_indv_nn,2769,831,0.741722334028023,True,False,318,11.4842903575298
+BH,tr_bh_018,Random Split,NN,nn,2769,831,0.741722334028023,False,True,831,30.0108342361863
+BH,tr_bh_018,Random Split,Random,random,2769,831,0.741722334028023,True,False,298,10.7620079451065
+BH,tr_bh_019,Random Split,EPIG,epig_gauss,2769,831,0.759594291187428,True,False,207,7.47562296858071
+BH,tr_bh_019,Random Split,BALD,bald,2769,831,0.759594291187428,True,False,280,10.1119537739256
+BH,tr_bh_019,Random Split,Indiv. NN,test_indv_nn,2769,831,0.759594291187428,True,False,334,12.0621162874684
+BH,tr_bh_019,Random Split,NN,nn,2769,831,0.759594291187428,False,True,831,30.0108342361863
+BH,tr_bh_019,Random Split,Random,random,2769,831,0.759594291187428,True,False,310,11.1953773925605
+Rh,rh_cluster_k8_cl0,Cluster Split,EPIG,epig_gauss,775,233,-0.0274457244842422,True,False,174,22.4516129032258
+Rh,rh_cluster_k8_cl0,Cluster Split,BALD,bald,775,233,-0.0274457244842422,True,False,144,18.5806451612903
+Rh,rh_cluster_k8_cl0,Cluster Split,Indiv. NN,test_indv_nn,775,233,-0.0274457244842422,False,True,233,30.0645161290323
+Rh,rh_cluster_k8_cl0,Cluster Split,NN,nn,775,233,-0.0274457244842422,False,True,233,30.0645161290323
+Rh,rh_cluster_k8_cl0,Cluster Split,Random,random,775,233,-0.0274457244842422,True,False,126,16.258064516129
+Rh,rh_cluster_k8_cl1,Cluster Split,EPIG,epig_gauss,845,254,-0.76711461725543,True,False,4,0.473372781065089
+Rh,rh_cluster_k8_cl1,Cluster Split,BALD,bald,845,254,-0.76711461725543,True,False,202,23.905325443787
+Rh,rh_cluster_k8_cl1,Cluster Split,Indiv. NN,test_indv_nn,845,254,-0.76711461725543,True,False,138,16.3313609467456
+Rh,rh_cluster_k8_cl1,Cluster Split,NN,nn,845,254,-0.76711461725543,True,False,38,4.49704142011834
+Rh,rh_cluster_k8_cl1,Cluster Split,Random,random,845,254,-0.76711461725543,True,False,60,7.10059171597633
+Rh,rh_cluster_k8_cl2,Cluster Split,EPIG,epig_gauss,815,245,0.0206508323415329,False,True,245,30.0613496932515
+Rh,rh_cluster_k8_cl2,Cluster Split,BALD,bald,815,245,0.0206508323415329,False,True,245,30.0613496932515
+Rh,rh_cluster_k8_cl2,Cluster Split,Indiv. NN,test_indv_nn,815,245,0.0206508323415329,True,False,68,8.34355828220859
+Rh,rh_cluster_k8_cl2,Cluster Split,NN,nn,815,245,0.0206508323415329,True,False,38,4.66257668711656
+Rh,rh_cluster_k8_cl2,Cluster Split,Random,random,815,245,0.0206508323415329,False,True,245,30.0613496932515
+Rh,rh_cluster_k8_cl3,Cluster Split,EPIG,epig_gauss,775,233,0.0093141542064466,True,False,24,3.09677419354839
+Rh,rh_cluster_k8_cl3,Cluster Split,BALD,bald,775,233,0.0093141542064466,False,True,233,30.0645161290323
+Rh,rh_cluster_k8_cl3,Cluster Split,Indiv. NN,test_indv_nn,775,233,0.0093141542064466,True,False,213,27.4838709677419
+Rh,rh_cluster_k8_cl3,Cluster Split,NN,nn,775,233,0.0093141542064466,False,True,233,30.0645161290323
+Rh,rh_cluster_k8_cl3,Cluster Split,Random,random,775,233,0.0093141542064466,False,True,233,30.0645161290323
+Rh,rh_cluster_k8_cl4,Cluster Split,EPIG,epig_gauss,955,287,-7.1650181898008,True,False,21,2.19895287958115
+Rh,rh_cluster_k8_cl4,Cluster Split,BALD,bald,955,287,-7.1650181898008,True,False,65,6.80628272251309
+Rh,rh_cluster_k8_cl4,Cluster Split,Indiv. NN,test_indv_nn,955,287,-7.1650181898008,True,False,95,9.94764397905759
+Rh,rh_cluster_k8_cl4,Cluster Split,NN,nn,955,287,-7.1650181898008,True,False,91,9.52879581151832
+Rh,rh_cluster_k8_cl4,Cluster Split,Random,random,955,287,-7.1650181898008,True,False,12,1.2565445026178
+Rh,rh_cluster_k8_cl5,Cluster Split,EPIG,epig_gauss,695,209,-0.0992607381045765,False,True,209,30.0719424460432
+Rh,rh_cluster_k8_cl5,Cluster Split,BALD,bald,695,209,-0.0992607381045765,False,True,209,30.0719424460432
+Rh,rh_cluster_k8_cl5,Cluster Split,Indiv. NN,test_indv_nn,695,209,-0.0992607381045765,True,False,88,12.6618705035971
+Rh,rh_cluster_k8_cl5,Cluster Split,NN,nn,695,209,-0.0992607381045765,True,False,47,6.76258992805755
+Rh,rh_cluster_k8_cl5,Cluster Split,Random,random,695,209,-0.0992607381045765,False,True,209,30.0719424460432
+Rh,rh_cluster_k8_cl6,Cluster Split,EPIG,epig_gauss,905,272,-0.102751211901208,False,True,272,30.0552486187845
+Rh,rh_cluster_k8_cl6,Cluster Split,BALD,bald,905,272,-0.102751211901208,False,True,272,30.0552486187845
+Rh,rh_cluster_k8_cl6,Cluster Split,Indiv. NN,test_indv_nn,905,272,-0.102751211901208,False,True,272,30.0552486187845
+Rh,rh_cluster_k8_cl6,Cluster Split,NN,nn,905,272,-0.102751211901208,True,False,184,20.3314917127072
+Rh,rh_cluster_k8_cl6,Cluster Split,Random,random,905,272,-0.102751211901208,False,True,272,30.0552486187845
+Rh,rh_cluster_k8_cl7,Cluster Split,EPIG,epig_gauss,955,287,-0.362994523876129,False,True,287,30.0523560209424
+Rh,rh_cluster_k8_cl7,Cluster Split,BALD,bald,955,287,-0.362994523876129,True,False,147,15.3926701570681
+Rh,rh_cluster_k8_cl7,Cluster Split,Indiv. NN,test_indv_nn,955,287,-0.362994523876129,True,False,89,9.31937172774869
+Rh,rh_cluster_k8_cl7,Cluster Split,NN,nn,955,287,-0.362994523876129,True,False,88,9.21465968586388
+Rh,rh_cluster_k8_cl7,Cluster Split,Random,random,955,287,-0.362994523876129,True,False,42,4.3979057591623
+Rh,rh_ligand_class_holdout_P,Chemical Family Split,EPIG,epig_gauss,910,273,-0.156842554642992,True,False,244,26.8131868131868
+Rh,rh_ligand_class_holdout_P,Chemical Family Split,BALD,bald,910,273,-0.156842554642992,True,False,108,11.8681318681319
+Rh,rh_ligand_class_holdout_P,Chemical Family Split,Indiv. NN,test_indv_nn,910,273,-0.156842554642992,False,True,273,30
+Rh,rh_ligand_class_holdout_P,Chemical Family Split,NN,nn,910,273,-0.156842554642992,True,False,83,9.12087912087912
+Rh,rh_ligand_class_holdout_P,Chemical Family Split,Random,random,910,273,-0.156842554642992,False,True,273,30
+Rh,rh_ligand_class_holdout_PN,Chemical Family Split,EPIG,epig_gauss,835,251,-0.29122516161409,True,False,171,20.4790419161677
+Rh,rh_ligand_class_holdout_PN,Chemical Family Split,BALD,bald,835,251,-0.29122516161409,False,True,251,30.059880239521
+Rh,rh_ligand_class_holdout_PN,Chemical Family Split,Indiv. NN,test_indv_nn,835,251,-0.29122516161409,False,True,251,30.059880239521
+Rh,rh_ligand_class_holdout_PN,Chemical Family Split,NN,nn,835,251,-0.29122516161409,True,False,46,5.50898203592814
+Rh,rh_ligand_class_holdout_PN,Chemical Family Split,Random,random,835,251,-0.29122516161409,True,False,152,18.2035928143713
+Rh,rh_ligand_class_holdout_Phosphoramidite,Chemical Family Split,EPIG,epig_gauss,905,272,-0.0547314779761179,False,True,272,30.0552486187845
+Rh,rh_ligand_class_holdout_Phosphoramidite,Chemical Family Split,BALD,bald,905,272,-0.0547314779761179,False,True,272,30.0552486187845
+Rh,rh_ligand_class_holdout_Phosphoramidite,Chemical Family Split,Indiv. NN,test_indv_nn,905,272,-0.0547314779761179,False,True,272,30.0552486187845
+Rh,rh_ligand_class_holdout_Phosphoramidite,Chemical Family Split,NN,nn,905,272,-0.0547314779761179,True,False,179,19.7790055248619
+Rh,rh_ligand_class_holdout_Phosphoramidite,Chemical Family Split,Random,random,905,272,-0.0547314779761179,False,True,272,30.0552486187845
+Rh,rh_paper_ood_case1,Published Split,EPIG,epig_gauss,96,29,0.648026490092281,False,True,29,30.2083333333333
+Rh,rh_paper_ood_case1,Published Split,BALD,bald,96,29,0.648026490092281,True,False,17,17.7083333333333
+Rh,rh_paper_ood_case1,Published Split,Indiv. NN,test_indv_nn,96,29,0.648026490092281,False,True,29,30.2083333333333
+Rh,rh_paper_ood_case1,Published Split,NN,nn,96,29,0.648026490092281,False,True,29,30.2083333333333
+Rh,rh_paper_ood_case1,Published Split,Random,random,96,29,0.648026490092281,False,True,29,30.2083333333333
+Rh,rh_paper_ood_case2,Published Split,EPIG,epig_gauss,96,29,0.60719385840868,True,False,28,29.1666666666667
+Rh,rh_paper_ood_case2,Published Split,BALD,bald,96,29,0.60719385840868,False,True,29,30.2083333333333
+Rh,rh_paper_ood_case2,Published Split,Indiv. NN,test_indv_nn,96,29,0.60719385840868,True,False,13,13.5416666666667
+Rh,rh_paper_ood_case2,Published Split,NN,nn,96,29,0.60719385840868,True,False,8,8.33333333333333
+Rh,rh_paper_ood_case2,Published Split,Random,random,96,29,0.60719385840868,True,False,19,19.7916666666667
+Rh,rh_paper_ood_case3,Published Split,EPIG,epig_gauss,96,29,0.702626851235399,False,True,29,30.2083333333333
+Rh,rh_paper_ood_case3,Published Split,BALD,bald,96,29,0.702626851235399,True,False,11,11.4583333333333
+Rh,rh_paper_ood_case3,Published Split,Indiv. NN,test_indv_nn,96,29,0.702626851235399,False,True,29,30.2083333333333
+Rh,rh_paper_ood_case3,Published Split,NN,nn,96,29,0.702626851235399,True,False,17,17.7083333333333
+Rh,rh_paper_ood_case3,Published Split,Random,random,96,29,0.702626851235399,False,True,29,30.2083333333333
+Rh,rh_paper_ood_case4,Published Split,EPIG,epig_gauss,96,29,0.575711107377974,True,False,23,23.9583333333333
+Rh,rh_paper_ood_case4,Published Split,BALD,bald,96,29,0.575711107377974,True,False,20,20.8333333333333
+Rh,rh_paper_ood_case4,Published Split,Indiv. NN,test_indv_nn,96,29,0.575711107377974,False,True,29,30.2083333333333
+Rh,rh_paper_ood_case4,Published Split,NN,nn,96,29,0.575711107377974,False,True,29,30.2083333333333
+Rh,rh_paper_ood_case4,Published Split,Random,random,96,29,0.575711107377974,False,True,29,30.2083333333333
+Rh,rh_paper_ood_case5,Published Split,EPIG,epig_gauss,96,29,0.468543396875957,True,False,15,15.625
+Rh,rh_paper_ood_case5,Published Split,BALD,bald,96,29,0.468543396875957,False,True,29,30.2083333333333
+Rh,rh_paper_ood_case5,Published Split,Indiv. NN,test_indv_nn,96,29,0.468543396875957,True,False,29,30.2083333333333
+Rh,rh_paper_ood_case5,Published Split,NN,nn,96,29,0.468543396875957,False,True,29,30.2083333333333
+Rh,rh_paper_ood_case5,Published Split,Random,random,96,29,0.468543396875957,False,True,29,30.2083333333333
+Rh,rh_paper_ood_case6,Published Split,EPIG,epig_gauss,96,29,0.53290352231438,True,False,27,28.125
+Rh,rh_paper_ood_case6,Published Split,BALD,bald,96,29,0.53290352231438,True,False,18,18.75
+Rh,rh_paper_ood_case6,Published Split,Indiv. NN,test_indv_nn,96,29,0.53290352231438,False,True,29,30.2083333333333
+Rh,rh_paper_ood_case6,Published Split,NN,nn,96,29,0.53290352231438,False,True,29,30.2083333333333
+Rh,rh_paper_ood_case6,Published Split,Random,random,96,29,0.53290352231438,False,True,29,30.2083333333333
+Rh,rh_paper_ood_case7,Published Split,EPIG,epig_gauss,96,29,-0.164756981861661,True,False,7,7.29166666666667
+Rh,rh_paper_ood_case7,Published Split,BALD,bald,96,29,-0.164756981861661,True,False,14,14.5833333333333
+Rh,rh_paper_ood_case7,Published Split,Indiv. NN,test_indv_nn,96,29,-0.164756981861661,False,True,29,30.2083333333333
+Rh,rh_paper_ood_case7,Published Split,NN,nn,96,29,-0.164756981861661,False,True,29,30.2083333333333
+Rh,rh_paper_ood_case7,Published Split,Random,random,96,29,-0.164756981861661,False,True,29,30.2083333333333
+Rh,tr_rh_000,Random Split,EPIG,epig_gauss,672,202,0.0882263110038767,True,False,107,15.922619047619
+Rh,tr_rh_000,Random Split,BALD,bald,672,202,0.0882263110038767,True,False,89,13.2440476190476
+Rh,tr_rh_000,Random Split,Indiv. NN,test_indv_nn,672,202,0.0882263110038767,True,False,134,19.9404761904762
+Rh,tr_rh_000,Random Split,NN,nn,672,202,0.0882263110038767,False,True,202,30.0595238095238
+Rh,tr_rh_000,Random Split,Random,random,672,202,0.0882263110038767,False,True,202,30.0595238095238
+Rh,tr_rh_001,Random Split,EPIG,epig_gauss,672,202,0.147153809171676,True,False,104,15.4761904761905
+Rh,tr_rh_001,Random Split,BALD,bald,672,202,0.147153809171676,True,False,105,15.625
+Rh,tr_rh_001,Random Split,Indiv. NN,test_indv_nn,672,202,0.147153809171676,False,True,202,30.0595238095238
+Rh,tr_rh_001,Random Split,NN,nn,672,202,0.147153809171676,False,True,202,30.0595238095238
+Rh,tr_rh_001,Random Split,Random,random,672,202,0.147153809171676,False,True,202,30.0595238095238
+Rh,tr_rh_002,Random Split,EPIG,epig_gauss,672,202,0.0989812642350925,True,False,134,19.9404761904762
+Rh,tr_rh_002,Random Split,BALD,bald,672,202,0.0989812642350925,True,False,129,19.1964285714286
+Rh,tr_rh_002,Random Split,Indiv. NN,test_indv_nn,672,202,0.0989812642350925,True,False,171,25.4464285714286
+Rh,tr_rh_002,Random Split,NN,nn,672,202,0.0989812642350925,False,True,202,30.0595238095238
+Rh,tr_rh_002,Random Split,Random,random,672,202,0.0989812642350925,True,False,195,29.0178571428571
+Rh,tr_rh_003,Random Split,EPIG,epig_gauss,672,202,0.087442857235068,True,False,43,6.39880952380952
+Rh,tr_rh_003,Random Split,BALD,bald,672,202,0.087442857235068,True,False,75,11.1607142857143
+Rh,tr_rh_003,Random Split,Indiv. NN,test_indv_nn,672,202,0.087442857235068,True,False,77,11.4583333333333
+Rh,tr_rh_003,Random Split,NN,nn,672,202,0.087442857235068,False,True,202,30.0595238095238
+Rh,tr_rh_003,Random Split,Random,random,672,202,0.087442857235068,True,False,200,29.7619047619048
+Rh,tr_rh_004,Random Split,EPIG,epig_gauss,672,202,0.124051630740822,True,False,133,19.7916666666667
+Rh,tr_rh_004,Random Split,BALD,bald,672,202,0.124051630740822,True,False,111,16.5178571428571
+Rh,tr_rh_004,Random Split,Indiv. NN,test_indv_nn,672,202,0.124051630740822,False,True,202,30.0595238095238
+Rh,tr_rh_004,Random Split,NN,nn,672,202,0.124051630740822,False,True,202,30.0595238095238
+Rh,tr_rh_004,Random Split,Random,random,672,202,0.124051630740822,False,True,202,30.0595238095238
+Rh,tr_rh_005,Random Split,EPIG,epig_gauss,672,202,0.04802220762511,True,False,56,8.33333333333333
+Rh,tr_rh_005,Random Split,BALD,bald,672,202,0.04802220762511,True,False,153,22.7678571428571
+Rh,tr_rh_005,Random Split,Indiv. NN,test_indv_nn,672,202,0.04802220762511,True,False,127,18.8988095238095
+Rh,tr_rh_005,Random Split,NN,nn,672,202,0.04802220762511,False,True,202,30.0595238095238
+Rh,tr_rh_005,Random Split,Random,random,672,202,0.04802220762511,False,True,202,30.0595238095238
+Rh,tr_rh_006,Random Split,EPIG,epig_gauss,672,202,0.109672495953748,True,False,153,22.7678571428571
+Rh,tr_rh_006,Random Split,BALD,bald,672,202,0.109672495953748,True,False,65,9.67261904761905
+Rh,tr_rh_006,Random Split,Indiv. NN,test_indv_nn,672,202,0.109672495953748,False,True,202,30.0595238095238
+Rh,tr_rh_006,Random Split,NN,nn,672,202,0.109672495953748,False,True,202,30.0595238095238
+Rh,tr_rh_006,Random Split,Random,random,672,202,0.109672495953748,False,True,202,30.0595238095238
+Rh,tr_rh_007,Random Split,EPIG,epig_gauss,672,202,0.0631690180058232,True,False,116,17.2619047619048
+Rh,tr_rh_007,Random Split,BALD,bald,672,202,0.0631690180058232,True,False,119,17.7083333333333
+Rh,tr_rh_007,Random Split,Indiv. NN,test_indv_nn,672,202,0.0631690180058232,True,False,167,24.8511904761905
+Rh,tr_rh_007,Random Split,NN,nn,672,202,0.0631690180058232,False,True,202,30.0595238095238
+Rh,tr_rh_007,Random Split,Random,random,672,202,0.0631690180058232,False,True,202,30.0595238095238
+Rh,tr_rh_008,Random Split,EPIG,epig_gauss,672,202,0.19026805534743,True,False,93,13.8392857142857
+Rh,tr_rh_008,Random Split,BALD,bald,672,202,0.19026805534743,True,False,74,11.0119047619048
+Rh,tr_rh_008,Random Split,Indiv. NN,test_indv_nn,672,202,0.19026805534743,False,True,202,30.0595238095238
+Rh,tr_rh_008,Random Split,NN,nn,672,202,0.19026805534743,False,True,202,30.0595238095238
+Rh,tr_rh_008,Random Split,Random,random,672,202,0.19026805534743,False,True,202,30.0595238095238
+Rh,tr_rh_009,Random Split,EPIG,epig_gauss,672,202,0.13929880657409,True,False,124,18.452380952381
+Rh,tr_rh_009,Random Split,BALD,bald,672,202,0.13929880657409,True,False,104,15.4761904761905
+Rh,tr_rh_009,Random Split,Indiv. NN,test_indv_nn,672,202,0.13929880657409,False,True,202,30.0595238095238
+Rh,tr_rh_009,Random Split,NN,nn,672,202,0.13929880657409,False,True,202,30.0595238095238
+Rh,tr_rh_009,Random Split,Random,random,672,202,0.13929880657409,False,True,202,30.0595238095238
+SAD,sad_train_test_Cis,Published Split,EPIG,epig_gauss,32,10,-0.485151945234356,True,False,6,18.75
+SAD,sad_train_test_Cis,Published Split,BALD,bald,32,10,-0.485151945234356,True,False,3,9.375
+SAD,sad_train_test_Cis,Published Split,Indiv. NN,test_indv_nn,32,10,-0.485151945234356,False,True,10,31.25
+SAD,sad_train_test_Cis,Published Split,NN,nn,32,10,-0.485151945234356,False,True,10,31.25
+SAD,sad_train_test_Cis,Published Split,Random,random,32,10,-0.485151945234356,True,False,9,28.125
+SAD,sad_train_test_Gem,Published Split,EPIG,epig_gauss,118,36,0.334794515038062,True,False,32,27.1186440677966
+SAD,sad_train_test_Gem,Published Split,BALD,bald,118,36,0.334794515038062,True,False,23,19.4915254237288
+SAD,sad_train_test_Gem,Published Split,Indiv. NN,test_indv_nn,118,36,0.334794515038062,True,False,32,27.1186440677966
+SAD,sad_train_test_Gem,Published Split,NN,nn,118,36,0.334794515038062,True,False,30,25.4237288135593
+SAD,sad_train_test_Gem,Published Split,Random,random,118,36,0.334794515038062,False,True,36,30.5084745762712
+SAD,sad_train_test_Mono,Published Split,EPIG,epig_gauss,118,36,0.256842512265766,True,False,13,11.0169491525424
+SAD,sad_train_test_Mono,Published Split,BALD,bald,118,36,0.256842512265766,False,True,36,30.5084745762712
+SAD,sad_train_test_Mono,Published Split,Indiv. NN,test_indv_nn,118,36,0.256842512265766,True,False,36,30.5084745762712
+SAD,sad_train_test_Mono,Published Split,NN,nn,118,36,0.256842512265766,False,True,36,30.5084745762712
+SAD,sad_train_test_Mono,Published Split,Random,random,118,36,0.256842512265766,False,True,36,30.5084745762712
+SAD,sad_train_test_Tetra,Published Split,EPIG,epig_gauss,16,5,0.608566544345433,True,False,5,31.25
+SAD,sad_train_test_Tetra,Published Split,BALD,bald,16,5,0.608566544345433,False,True,5,31.25
+SAD,sad_train_test_Tetra,Published Split,Indiv. NN,test_indv_nn,16,5,0.608566544345433,False,True,5,31.25
+SAD,sad_train_test_Tetra,Published Split,NN,nn,16,5,0.608566544345433,True,False,5,31.25
+SAD,sad_train_test_Tetra,Published Split,Random,random,16,5,0.608566544345433,False,True,5,31.25
+SAD,sad_train_test_Trans,Published Split,EPIG,epig_gauss,196,59,0.198504247035325,True,False,23,11.734693877551
+SAD,sad_train_test_Trans,Published Split,BALD,bald,196,59,0.198504247035325,True,False,49,25
+SAD,sad_train_test_Trans,Published Split,Indiv. NN,test_indv_nn,196,59,0.198504247035325,True,False,38,19.3877551020408
+SAD,sad_train_test_Trans,Published Split,NN,nn,196,59,0.198504247035325,False,True,59,30.1020408163265
+SAD,sad_train_test_Trans,Published Split,Random,random,196,59,0.198504247035325,True,False,40,20.4081632653061
+SAD,sad_train_test_TriQ2,Published Split,EPIG,epig_gauss,53,16,0.160736224013397,True,False,7,13.2075471698113
+SAD,sad_train_test_TriQ2,Published Split,BALD,bald,53,16,0.160736224013397,False,True,16,30.188679245283
+SAD,sad_train_test_TriQ2,Published Split,Indiv. NN,test_indv_nn,53,16,0.160736224013397,True,False,11,20.7547169811321
+SAD,sad_train_test_TriQ2,Published Split,NN,nn,53,16,0.160736224013397,False,True,16,30.188679245283
+SAD,sad_train_test_TriQ2,Published Split,Random,random,53,16,0.160736224013397,True,False,15,28.3018867924528
+SAD,sad_train_test_TriQ4,Published Split,EPIG,epig_gauss,60,18,-1.51291800009934,True,False,15,25
+SAD,sad_train_test_TriQ4,Published Split,BALD,bald,60,18,-1.51291800009934,True,False,5,8.33333333333333
+SAD,sad_train_test_TriQ4,Published Split,Indiv. NN,test_indv_nn,60,18,-1.51291800009934,True,False,8,13.3333333333333
+SAD,sad_train_test_TriQ4,Published Split,NN,nn,60,18,-1.51291800009934,True,False,17,28.3333333333333
+SAD,sad_train_test_TriQ4,Published Split,Random,random,60,18,-1.51291800009934,False,True,18,30
+Wittig,tr_wittig_000,Random Split,EPIG,epig_gauss,677,204,0.363814953648671,True,False,116,17.1344165435746
+Wittig,tr_wittig_000,Random Split,BALD,bald,677,204,0.363814953648671,True,False,91,13.4416543574594
+Wittig,tr_wittig_000,Random Split,Indiv. NN,test_indv_nn,677,204,0.363814953648671,True,False,116,17.1344165435746
+Wittig,tr_wittig_000,Random Split,NN,nn,677,204,0.363814953648671,False,True,204,30.1329394387001
+Wittig,tr_wittig_000,Random Split,Random,random,677,204,0.363814953648671,True,False,151,22.3042836041359
+Wittig,tr_wittig_001,Random Split,EPIG,epig_gauss,677,204,0.30072241841163,True,False,91,13.4416543574594
+Wittig,tr_wittig_001,Random Split,BALD,bald,677,204,0.30072241841163,True,False,107,15.8050221565731
+Wittig,tr_wittig_001,Random Split,Indiv. NN,test_indv_nn,677,204,0.30072241841163,True,False,162,23.9290989660266
+Wittig,tr_wittig_001,Random Split,NN,nn,677,204,0.30072241841163,False,True,204,30.1329394387001
+Wittig,tr_wittig_001,Random Split,Random,random,677,204,0.30072241841163,True,False,148,21.8611521418021
+Wittig,tr_wittig_002,Random Split,EPIG,epig_gauss,677,204,0.333554034117496,True,False,107,15.8050221565731
+Wittig,tr_wittig_002,Random Split,BALD,bald,677,204,0.333554034117496,True,False,110,16.2481536189069
+Wittig,tr_wittig_002,Random Split,Indiv. NN,test_indv_nn,677,204,0.333554034117496,True,False,130,19.2023633677991
+Wittig,tr_wittig_002,Random Split,NN,nn,677,204,0.333554034117496,True,False,193,28.5081240768095
+Wittig,tr_wittig_002,Random Split,Random,random,677,204,0.333554034117496,True,False,154,22.7474150664697
+Wittig,tr_wittig_003,Random Split,EPIG,epig_gauss,677,204,0.305831582193567,True,False,99,14.6233382570162
+Wittig,tr_wittig_003,Random Split,BALD,bald,677,204,0.305831582193567,True,False,97,14.327917282127
+Wittig,tr_wittig_003,Random Split,Indiv. NN,test_indv_nn,677,204,0.305831582193567,True,False,130,19.2023633677991
+Wittig,tr_wittig_003,Random Split,NN,nn,677,204,0.305831582193567,False,True,204,30.1329394387001
+Wittig,tr_wittig_003,Random Split,Random,random,677,204,0.305831582193567,True,False,130,19.2023633677991
+Wittig,tr_wittig_004,Random Split,EPIG,epig_gauss,677,204,0.390485697737937,True,False,122,18.0206794682422
+Wittig,tr_wittig_004,Random Split,BALD,bald,677,204,0.390485697737937,True,False,151,22.3042836041359
+Wittig,tr_wittig_004,Random Split,Indiv. NN,test_indv_nn,677,204,0.390485697737937,False,True,204,30.1329394387001
+Wittig,tr_wittig_004,Random Split,NN,nn,677,204,0.390485697737937,False,True,204,30.1329394387001
+Wittig,tr_wittig_004,Random Split,Random,random,677,204,0.390485697737937,False,True,204,30.1329394387001
+Wittig,tr_wittig_005,Random Split,EPIG,epig_gauss,677,204,0.317270432325624,True,False,93,13.7370753323486
+Wittig,tr_wittig_005,Random Split,BALD,bald,677,204,0.317270432325624,True,False,113,16.6912850812408
+Wittig,tr_wittig_005,Random Split,Indiv. NN,test_indv_nn,677,204,0.317270432325624,False,True,204,30.1329394387001
+Wittig,tr_wittig_005,Random Split,NN,nn,677,204,0.317270432325624,True,False,202,29.8375184638109
+Wittig,tr_wittig_005,Random Split,Random,random,677,204,0.317270432325624,True,False,135,19.9409158050222
+Wittig,tr_wittig_006,Random Split,EPIG,epig_gauss,677,204,0.361308184106464,True,False,116,17.1344165435746
+Wittig,tr_wittig_006,Random Split,BALD,bald,677,204,0.361308184106464,True,False,108,15.9527326440177
+Wittig,tr_wittig_006,Random Split,Indiv. NN,test_indv_nn,677,204,0.361308184106464,True,False,202,29.8375184638109
+Wittig,tr_wittig_006,Random Split,NN,nn,677,204,0.361308184106464,True,False,167,24.6676514032496
+Wittig,tr_wittig_006,Random Split,Random,random,677,204,0.361308184106464,True,False,150,22.1565731166913
+Wittig,tr_wittig_007,Random Split,EPIG,epig_gauss,677,204,0.334507620986356,True,False,125,18.4638109305761
+Wittig,tr_wittig_007,Random Split,BALD,bald,677,204,0.334507620986356,True,False,132,19.4977843426883
+Wittig,tr_wittig_007,Random Split,Indiv. NN,test_indv_nn,677,204,0.334507620986356,True,False,131,19.3500738552437
+Wittig,tr_wittig_007,Random Split,NN,nn,677,204,0.334507620986356,True,False,177,26.1447562776957
+Wittig,tr_wittig_007,Random Split,Random,random,677,204,0.334507620986356,True,False,183,27.0310192023634
+Wittig,tr_wittig_008,Random Split,EPIG,epig_gauss,677,204,0.314132962573724,True,False,133,19.6454948301329
+Wittig,tr_wittig_008,Random Split,BALD,bald,677,204,0.314132962573724,True,False,117,17.2821270310192
+Wittig,tr_wittig_008,Random Split,Indiv. NN,test_indv_nn,677,204,0.314132962573724,True,False,142,20.9748892171344
+Wittig,tr_wittig_008,Random Split,NN,nn,677,204,0.314132962573724,False,True,204,30.1329394387001
+Wittig,tr_wittig_008,Random Split,Random,random,677,204,0.314132962573724,True,False,176,25.9970457902511
+Wittig,tr_wittig_009,Random Split,EPIG,epig_gauss,677,204,0.365991944320723,True,False,119,17.5775480059084
+Wittig,tr_wittig_009,Random Split,BALD,bald,677,204,0.365991944320723,True,False,140,20.6794682422452
+Wittig,tr_wittig_009,Random Split,Indiv. NN,test_indv_nn,677,204,0.365991944320723,True,False,117,17.2821270310192
+Wittig,tr_wittig_009,Random Split,NN,nn,677,204,0.365991944320723,False,True,204,30.1329394387001
+Wittig,tr_wittig_009,Random Split,Random,random,677,204,0.365991944320723,True,False,173,25.5539143279173
+Wittig,tr_wittig_010,Random Split,EPIG,epig_gauss,677,204,0.336186484827317,True,False,124,18.3161004431315
+Wittig,tr_wittig_010,Random Split,BALD,bald,677,204,0.336186484827317,True,False,148,21.8611521418021
+Wittig,tr_wittig_010,Random Split,Indiv. NN,test_indv_nn,677,204,0.336186484827317,True,False,143,21.122599704579
+Wittig,tr_wittig_010,Random Split,NN,nn,677,204,0.336186484827317,False,True,204,30.1329394387001
+Wittig,tr_wittig_010,Random Split,Random,random,677,204,0.336186484827317,True,False,157,23.1905465288035
+Wittig,tr_wittig_011,Random Split,EPIG,epig_gauss,677,204,0.328536090748926,True,False,79,11.6691285081241
+Wittig,tr_wittig_011,Random Split,BALD,bald,677,204,0.328536090748926,True,False,123,18.1683899556869
+Wittig,tr_wittig_011,Random Split,Indiv. NN,test_indv_nn,677,204,0.328536090748926,True,False,106,15.6573116691285
+Wittig,tr_wittig_011,Random Split,NN,nn,677,204,0.328536090748926,True,False,123,18.1683899556869
+Wittig,tr_wittig_011,Random Split,Random,random,677,204,0.328536090748926,True,False,125,18.4638109305761
+Wittig,tr_wittig_012,Random Split,EPIG,epig_gauss,677,204,0.307770373299642,True,False,114,16.8389955686854
+Wittig,tr_wittig_012,Random Split,BALD,bald,677,204,0.307770373299642,True,False,151,22.3042836041359
+Wittig,tr_wittig_012,Random Split,Indiv. NN,test_indv_nn,677,204,0.307770373299642,False,True,204,30.1329394387001
+Wittig,tr_wittig_012,Random Split,NN,nn,677,204,0.307770373299642,False,True,204,30.1329394387001
+Wittig,tr_wittig_012,Random Split,Random,random,677,204,0.307770373299642,False,True,204,30.1329394387001
+Wittig,tr_wittig_013,Random Split,EPIG,epig_gauss,677,204,0.360668042420439,True,False,111,16.3958641063515
+Wittig,tr_wittig_013,Random Split,BALD,bald,677,204,0.360668042420439,True,False,140,20.6794682422452
+Wittig,tr_wittig_013,Random Split,Indiv. NN,test_indv_nn,677,204,0.360668042420439,True,False,123,18.1683899556869
+Wittig,tr_wittig_013,Random Split,NN,nn,677,204,0.360668042420439,True,False,173,25.5539143279173
+Wittig,tr_wittig_013,Random Split,Random,random,677,204,0.360668042420439,True,False,165,24.3722304283604
+Wittig,tr_wittig_014,Random Split,EPIG,epig_gauss,677,204,0.333449229972259,True,False,133,19.6454948301329
+Wittig,tr_wittig_014,Random Split,BALD,bald,677,204,0.333449229972259,True,False,118,17.4298375184638
+Wittig,tr_wittig_014,Random Split,Indiv. NN,test_indv_nn,677,204,0.333449229972259,True,False,110,16.2481536189069
+Wittig,tr_wittig_014,Random Split,NN,nn,677,204,0.333449229972259,True,False,185,27.3264401772526
+Wittig,tr_wittig_014,Random Split,Random,random,677,204,0.333449229972259,True,False,111,16.3958641063515
+Wittig,tr_wittig_015,Random Split,EPIG,epig_gauss,677,204,0.329605711057331,True,False,95,14.0324963072378
+Wittig,tr_wittig_015,Random Split,BALD,bald,677,204,0.329605711057331,True,False,119,17.5775480059084
+Wittig,tr_wittig_015,Random Split,Indiv. NN,test_indv_nn,677,204,0.329605711057331,True,False,122,18.0206794682422
+Wittig,tr_wittig_015,Random Split,NN,nn,677,204,0.329605711057331,True,False,145,21.4180206794682
+Wittig,tr_wittig_015,Random Split,Random,random,677,204,0.329605711057331,True,False,160,23.6336779911374
+Wittig,tr_wittig_016,Random Split,EPIG,epig_gauss,677,204,0.332718975385808,True,False,117,17.2821270310192
+Wittig,tr_wittig_016,Random Split,BALD,bald,677,204,0.332718975385808,True,False,143,21.122599704579
+Wittig,tr_wittig_016,Random Split,Indiv. NN,test_indv_nn,677,204,0.332718975385808,True,False,158,23.3382570162482
+Wittig,tr_wittig_016,Random Split,NN,nn,677,204,0.332718975385808,False,True,204,30.1329394387001
+Wittig,tr_wittig_016,Random Split,Random,random,677,204,0.332718975385808,True,False,150,22.1565731166913
+Wittig,tr_wittig_017,Random Split,EPIG,epig_gauss,677,204,0.281203990088103,True,False,135,19.9409158050222
+Wittig,tr_wittig_017,Random Split,BALD,bald,677,204,0.281203990088103,True,False,131,19.3500738552437
+Wittig,tr_wittig_017,Random Split,Indiv. NN,test_indv_nn,677,204,0.281203990088103,True,False,133,19.6454948301329
+Wittig,tr_wittig_017,Random Split,NN,nn,677,204,0.281203990088103,False,True,204,30.1329394387001
+Wittig,tr_wittig_017,Random Split,Random,random,677,204,0.281203990088103,True,False,198,29.2466765140325
+Wittig,tr_wittig_018,Random Split,EPIG,epig_gauss,677,204,0.301052407847586,True,False,111,16.3958641063515
+Wittig,tr_wittig_018,Random Split,BALD,bald,677,204,0.301052407847586,True,False,141,20.8271787296898
+Wittig,tr_wittig_018,Random Split,Indiv. NN,test_indv_nn,677,204,0.301052407847586,True,False,152,22.4519940915805
+Wittig,tr_wittig_018,Random Split,NN,nn,677,204,0.301052407847586,False,True,204,30.1329394387001
+Wittig,tr_wittig_018,Random Split,Random,random,677,204,0.301052407847586,True,False,157,23.1905465288035
+Wittig,tr_wittig_019,Random Split,EPIG,epig_gauss,677,204,0.310593391792319,True,False,94,13.8847858197932
+Wittig,tr_wittig_019,Random Split,BALD,bald,677,204,0.310593391792319,True,False,137,20.2363367799114
+Wittig,tr_wittig_019,Random Split,Indiv. NN,test_indv_nn,677,204,0.310593391792319,True,False,134,19.7932053175775
+Wittig,tr_wittig_019,Random Split,NN,nn,677,204,0.310593391792319,False,True,204,30.1329394387001
+Wittig,tr_wittig_019,Random Split,Random,random,677,204,0.310593391792319,True,False,168,24.8153618906942
+Wittig,wittig_f119_cluster_k8_cl0,Cluster Split,EPIG,epig_gauss,626,188,-0.477517119332419,True,False,63,10.0638977635783
+Wittig,wittig_f119_cluster_k8_cl0,Cluster Split,BALD,bald,626,188,-0.477517119332419,True,False,131,20.926517571885
+Wittig,wittig_f119_cluster_k8_cl0,Cluster Split,Indiv. NN,test_indv_nn,626,188,-0.477517119332419,False,True,188,30.0319488817891
+Wittig,wittig_f119_cluster_k8_cl0,Cluster Split,NN,nn,626,188,-0.477517119332419,False,True,188,30.0319488817891
+Wittig,wittig_f119_cluster_k8_cl0,Cluster Split,Random,random,626,188,-0.477517119332419,False,True,188,30.0319488817891
+Wittig,wittig_f119_cluster_k8_cl1,Cluster Split,EPIG,epig_gauss,918,276,0.0138343951466133,True,False,37,4.03050108932462
+Wittig,wittig_f119_cluster_k8_cl1,Cluster Split,BALD,bald,918,276,0.0138343951466133,True,False,60,6.5359477124183
+Wittig,wittig_f119_cluster_k8_cl1,Cluster Split,Indiv. NN,test_indv_nn,918,276,0.0138343951466133,True,False,109,11.8736383442266
+Wittig,wittig_f119_cluster_k8_cl1,Cluster Split,NN,nn,918,276,0.0138343951466133,True,False,179,19.4989106753813
+Wittig,wittig_f119_cluster_k8_cl1,Cluster Split,Random,random,918,276,0.0138343951466133,True,False,215,23.4204793028322
+Wittig,wittig_f119_cluster_k8_cl2,Cluster Split,EPIG,epig_gauss,875,263,0.0659722350536177,False,True,263,30.0571428571429
+Wittig,wittig_f119_cluster_k8_cl2,Cluster Split,BALD,bald,875,263,0.0659722350536177,False,True,263,30.0571428571429
+Wittig,wittig_f119_cluster_k8_cl2,Cluster Split,Indiv. NN,test_indv_nn,875,263,0.0659722350536177,True,False,45,5.14285714285714
+Wittig,wittig_f119_cluster_k8_cl2,Cluster Split,NN,nn,875,263,0.0659722350536177,True,False,159,18.1714285714286
+Wittig,wittig_f119_cluster_k8_cl2,Cluster Split,Random,random,875,263,0.0659722350536177,False,True,263,30.0571428571429
+Wittig,wittig_f119_cluster_k8_cl3,Cluster Split,EPIG,epig_gauss,755,227,-0.525541452717792,True,False,38,5.03311258278146
+Wittig,wittig_f119_cluster_k8_cl3,Cluster Split,BALD,bald,755,227,-0.525541452717792,True,False,203,26.887417218543
+Wittig,wittig_f119_cluster_k8_cl3,Cluster Split,Indiv. NN,test_indv_nn,755,227,-0.525541452717792,True,False,179,23.7086092715232
+Wittig,wittig_f119_cluster_k8_cl3,Cluster Split,NN,nn,755,227,-0.525541452717792,True,False,24,3.17880794701987
+Wittig,wittig_f119_cluster_k8_cl3,Cluster Split,Random,random,755,227,-0.525541452717792,True,False,71,9.40397350993377
+Wittig,wittig_f119_cluster_k8_cl4,Cluster Split,EPIG,epig_gauss,963,289,-1.9825280816159,True,False,29,3.01142263759086
+Wittig,wittig_f119_cluster_k8_cl4,Cluster Split,BALD,bald,963,289,-1.9825280816159,True,False,103,10.6957424714434
+Wittig,wittig_f119_cluster_k8_cl4,Cluster Split,Indiv. NN,test_indv_nn,963,289,-1.9825280816159,True,False,39,4.04984423676012
+Wittig,wittig_f119_cluster_k8_cl4,Cluster Split,NN,nn,963,289,-1.9825280816159,True,False,8,0.83073727933541
+Wittig,wittig_f119_cluster_k8_cl4,Cluster Split,Random,random,963,289,-1.9825280816159,False,True,289,30.0103842159917
+Wittig,wittig_f119_cluster_k8_cl5,Cluster Split,EPIG,epig_gauss,901,271,0.214304365634156,True,False,138,15.3163152053274
+Wittig,wittig_f119_cluster_k8_cl5,Cluster Split,BALD,bald,901,271,0.214304365634156,False,True,271,30.0776914539401
+Wittig,wittig_f119_cluster_k8_cl5,Cluster Split,Indiv. NN,test_indv_nn,901,271,0.214304365634156,True,False,162,17.9800221975583
+Wittig,wittig_f119_cluster_k8_cl5,Cluster Split,NN,nn,901,271,0.214304365634156,False,True,271,30.0776914539401
+Wittig,wittig_f119_cluster_k8_cl5,Cluster Split,Random,random,901,271,0.214304365634156,False,True,271,30.0776914539401
+Wittig,wittig_f119_cluster_k8_cl6,Cluster Split,EPIG,epig_gauss,870,261,0.159075502988997,True,False,141,16.2068965517241
+Wittig,wittig_f119_cluster_k8_cl6,Cluster Split,BALD,bald,870,261,0.159075502988997,True,False,146,16.7816091954023
+Wittig,wittig_f119_cluster_k8_cl6,Cluster Split,Indiv. NN,test_indv_nn,870,261,0.159075502988997,True,False,102,11.7241379310345
+Wittig,wittig_f119_cluster_k8_cl6,Cluster Split,NN,nn,870,261,0.159075502988997,True,False,130,14.9425287356322
+Wittig,wittig_f119_cluster_k8_cl6,Cluster Split,Random,random,870,261,0.159075502988997,False,True,261,30
+Wittig,wittig_f119_cluster_k8_cl7,Cluster Split,EPIG,epig_gauss,861,259,-0.250633364804765,True,False,118,13.7049941927991
+Wittig,wittig_f119_cluster_k8_cl7,Cluster Split,BALD,bald,861,259,-0.250633364804765,False,True,259,30.0813008130081
+Wittig,wittig_f119_cluster_k8_cl7,Cluster Split,Indiv. NN,test_indv_nn,861,259,-0.250633364804765,False,True,259,30.0813008130081
+Wittig,wittig_f119_cluster_k8_cl7,Cluster Split,NN,nn,861,259,-0.250633364804765,True,False,39,4.52961672473868
+Wittig,wittig_f119_cluster_k8_cl7,Cluster Split,Random,random,861,259,-0.250633364804765,False,True,259,30.0813008130081
+Rh,tr_rh_010,Random Split,EPIG,epig_gauss,672,202,0.0343523033573227,True,False,134,19.9404761904762
+Rh,tr_rh_010,Random Split,BALD,bald,672,202,0.0343523033573227,True,False,126,18.75
+Rh,tr_rh_010,Random Split,Indiv. NN,test_indv_nn,672,202,0.0343523033573227,False,True,202,30.0595238095238
+Rh,tr_rh_010,Random Split,NN,nn,672,202,0.0343523033573227,False,True,202,30.0595238095238
+Rh,tr_rh_010,Random Split,Random,random,672,202,0.0343523033573227,True,False,177,26.3392857142857
+Rh,tr_rh_011,Random Split,EPIG,epig_gauss,672,202,0.0966237982353693,True,False,119,17.7083333333333
+Rh,tr_rh_011,Random Split,BALD,bald,672,202,0.0966237982353693,True,False,79,11.7559523809524
+Rh,tr_rh_011,Random Split,Indiv. NN,test_indv_nn,672,202,0.0966237982353693,False,True,202,30.0595238095238
+Rh,tr_rh_011,Random Split,NN,nn,672,202,0.0966237982353693,False,True,202,30.0595238095238
+Rh,tr_rh_011,Random Split,Random,random,672,202,0.0966237982353693,False,True,202,30.0595238095238
+Rh,tr_rh_012,Random Split,EPIG,epig_gauss,672,202,0.0577677984571219,True,False,124,18.452380952381
+Rh,tr_rh_012,Random Split,BALD,bald,672,202,0.0577677984571219,True,False,142,21.1309523809524
+Rh,tr_rh_012,Random Split,Indiv. NN,test_indv_nn,672,202,0.0577677984571219,False,True,202,30.0595238095238
+Rh,tr_rh_012,Random Split,NN,nn,672,202,0.0577677984571219,False,True,202,30.0595238095238
+Rh,tr_rh_012,Random Split,Random,random,672,202,0.0577677984571219,True,False,185,27.5297619047619
+Rh,tr_rh_013,Random Split,EPIG,epig_gauss,672,202,0.120252799603534,True,False,56,8.33333333333333
+Rh,tr_rh_013,Random Split,BALD,bald,672,202,0.120252799603534,True,False,92,13.6904761904762
+Rh,tr_rh_013,Random Split,Indiv. NN,test_indv_nn,672,202,0.120252799603534,False,True,202,30.0595238095238
+Rh,tr_rh_013,Random Split,NN,nn,672,202,0.120252799603534,False,True,202,30.0595238095238
+Rh,tr_rh_013,Random Split,Random,random,672,202,0.120252799603534,False,True,202,30.0595238095238
+Rh,tr_rh_014,Random Split,EPIG,epig_gauss,672,202,0.143455591513793,True,False,69,10.2678571428571
+Rh,tr_rh_014,Random Split,BALD,bald,672,202,0.143455591513793,True,False,153,22.7678571428571
+Rh,tr_rh_014,Random Split,Indiv. NN,test_indv_nn,672,202,0.143455591513793,True,False,150,22.3214285714286
+Rh,tr_rh_014,Random Split,NN,nn,672,202,0.143455591513793,False,True,202,30.0595238095238
+Rh,tr_rh_014,Random Split,Random,random,672,202,0.143455591513793,False,True,202,30.0595238095238
+Rh,tr_rh_015,Random Split,EPIG,epig_gauss,672,202,0.11255241364004,True,False,165,24.5535714285714
+Rh,tr_rh_015,Random Split,BALD,bald,672,202,0.11255241364004,True,False,55,8.18452380952381
+Rh,tr_rh_015,Random Split,Indiv. NN,test_indv_nn,672,202,0.11255241364004,True,False,167,24.8511904761905
+Rh,tr_rh_015,Random Split,NN,nn,672,202,0.11255241364004,False,True,202,30.0595238095238
+Rh,tr_rh_015,Random Split,Random,random,672,202,0.11255241364004,True,False,189,28.125
+Rh,tr_rh_016,Random Split,EPIG,epig_gauss,672,202,0.138626960981238,True,False,129,19.1964285714286
+Rh,tr_rh_016,Random Split,BALD,bald,672,202,0.138626960981238,True,False,85,12.6488095238095
+Rh,tr_rh_016,Random Split,Indiv. NN,test_indv_nn,672,202,0.138626960981238,True,False,158,23.5119047619048
+Rh,tr_rh_016,Random Split,NN,nn,672,202,0.138626960981238,False,True,202,30.0595238095238
+Rh,tr_rh_016,Random Split,Random,random,672,202,0.138626960981238,False,True,202,30.0595238095238
+Rh,tr_rh_017,Random Split,EPIG,epig_gauss,672,202,0.155537694003324,True,False,95,14.1369047619048
+Rh,tr_rh_017,Random Split,BALD,bald,672,202,0.155537694003324,True,False,77,11.4583333333333
+Rh,tr_rh_017,Random Split,Indiv. NN,test_indv_nn,672,202,0.155537694003324,False,True,202,30.0595238095238
+Rh,tr_rh_017,Random Split,NN,nn,672,202,0.155537694003324,False,True,202,30.0595238095238
+Rh,tr_rh_017,Random Split,Random,random,672,202,0.155537694003324,False,True,202,30.0595238095238
+Rh,tr_rh_018,Random Split,EPIG,epig_gauss,672,202,0.145594588197609,True,False,113,16.8154761904762
+Rh,tr_rh_018,Random Split,BALD,bald,672,202,0.145594588197609,True,False,105,15.625
+Rh,tr_rh_018,Random Split,Indiv. NN,test_indv_nn,672,202,0.145594588197609,True,False,181,26.9345238095238
+Rh,tr_rh_018,Random Split,NN,nn,672,202,0.145594588197609,False,True,202,30.0595238095238
+Rh,tr_rh_018,Random Split,Random,random,672,202,0.145594588197609,False,True,202,30.0595238095238
+Rh,tr_rh_019,Random Split,EPIG,epig_gauss,672,202,0.135589252252454,True,False,155,23.0654761904762
+Rh,tr_rh_019,Random Split,BALD,bald,672,202,0.135589252252454,True,False,80,11.9047619047619
+Rh,tr_rh_019,Random Split,Indiv. NN,test_indv_nn,672,202,0.135589252252454,False,True,202,30.0595238095238
+Rh,tr_rh_019,Random Split,NN,nn,672,202,0.135589252252454,False,True,202,30.0595238095238
+Rh,tr_rh_019,Random Split,Random,random,672,202,0.135589252252454,False,True,202,30.0595238095238
+Wittig,wittig_f119_textbook_base_cas_random_85_15,Published Split,EPIG,epig_gauss,198,60,0.180942008956735,True,False,24,12.1212121212121
+Wittig,wittig_f119_textbook_base_cas_random_85_15,Published Split,BALD,bald,198,60,0.180942008956735,True,False,48,24.2424242424242
+Wittig,wittig_f119_textbook_base_cas_random_85_15,Published Split,Indiv. NN,test_indv_nn,198,60,0.180942008956735,True,False,44,22.2222222222222
+Wittig,wittig_f119_textbook_base_cas_random_85_15,Published Split,NN,nn,198,60,0.180942008956735,False,True,60,30.3030303030303
+Wittig,wittig_f119_textbook_base_cas_random_85_15,Published Split,Random,random,198,60,0.180942008956735,False,True,60,30.3030303030303

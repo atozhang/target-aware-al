@@ -1,0 +1,176 @@
+window,scheme,acquisition_function,rh_highest_mean,rh_competitive,overall_highest_mean,overall_competitive,overall_denominator
+0-10,primary,EPIG,4,5,67,107,118
+0-10,primary,BALD,2,4,22,83,118
+0-10,primary,Indiv. NN,1,1,16,75,118
+0-10,primary,NN,0,1,9,45,118
+0-10,primary,Random,0,1,4,65,118
+0-10,pooled_30,EPIG,4,5,67,107,118
+0-10,pooled_30,BALD,2,4,22,83,118
+0-10,pooled_30,Indiv. NN,1,1,16,75,118
+0-10,pooled_30,NN,0,1,9,45,118
+0-10,pooled_30,Random,0,1,4,65,118
+0-10,partition_0,EPIG,4,7,67,109,118
+0-10,partition_0,BALD,3,4,23,83,118
+0-10,partition_0,Indiv. NN,0,2,15,76,118
+0-10,partition_0,NN,0,2,9,46,118
+0-10,partition_0,Random,0,4,4,68,118
+0-10,partition_1,EPIG,5,6,68,108,118
+0-10,partition_1,BALD,2,3,22,82,118
+0-10,partition_1,Indiv. NN,0,2,15,76,118
+0-10,partition_1,NN,0,2,9,46,118
+0-10,partition_1,Random,0,2,4,66,118
+0-10,partition_2,EPIG,3,5,66,107,118
+0-10,partition_2,BALD,2,5,22,84,118
+0-10,partition_2,Indiv. NN,1,4,16,78,118
+0-10,partition_2,NN,1,3,10,47,118
+0-10,partition_2,Random,0,4,4,68,118
+2-12,primary,EPIG,5,5,74,105,118
+2-12,primary,BALD,2,3,22,79,118
+2-12,primary,Indiv. NN,0,2,12,74,118
+2-12,primary,NN,0,1,7,40,118
+2-12,primary,Random,0,2,3,64,118
+2-12,pooled_30,EPIG,5,5,74,105,118
+2-12,pooled_30,BALD,2,3,22,79,118
+2-12,pooled_30,Indiv. NN,0,1,12,73,118
+2-12,pooled_30,NN,0,2,7,41,118
+2-12,pooled_30,Random,0,1,3,63,118
+2-12,partition_0,EPIG,4,7,73,107,118
+2-12,partition_0,BALD,3,3,23,79,118
+2-12,partition_0,Indiv. NN,0,4,12,76,118
+2-12,partition_0,NN,0,1,7,40,118
+2-12,partition_0,Random,0,4,3,66,118
+2-12,partition_1,EPIG,5,5,74,105,118
+2-12,partition_1,BALD,2,3,22,79,118
+2-12,partition_1,Indiv. NN,0,2,12,74,118
+2-12,partition_1,NN,0,2,7,41,118
+2-12,partition_1,Random,0,2,3,64,118
+2-12,partition_2,EPIG,2,5,71,105,118
+2-12,partition_2,BALD,3,4,23,80,118
+2-12,partition_2,Indiv. NN,0,4,12,76,118
+2-12,partition_2,NN,2,3,9,42,118
+2-12,partition_2,Random,0,4,3,66,118
+5-15,primary,EPIG,5,5,69,105,118
+5-15,primary,BALD,2,4,26,75,118
+5-15,primary,Indiv. NN,0,1,12,67,118
+5-15,primary,NN,0,0,7,38,118
+5-15,primary,Random,0,0,4,56,118
+5-15,pooled_30,EPIG,5,5,69,105,118
+5-15,pooled_30,BALD,2,5,26,76,118
+5-15,pooled_30,Indiv. NN,0,1,12,67,118
+5-15,pooled_30,NN,0,1,7,39,118
+5-15,pooled_30,Random,0,1,4,57,118
+5-15,partition_0,EPIG,4,5,68,105,118
+5-15,partition_0,BALD,3,6,27,77,118
+5-15,partition_0,Indiv. NN,0,2,12,68,118
+5-15,partition_0,NN,0,1,7,39,118
+5-15,partition_0,Random,0,4,4,60,118
+5-15,partition_1,EPIG,4,5,68,105,118
+5-15,partition_1,BALD,2,4,26,75,118
+5-15,partition_1,Indiv. NN,1,2,13,68,118
+5-15,partition_1,NN,0,2,7,40,118
+5-15,partition_1,Random,0,2,4,58,118
+5-15,partition_2,EPIG,1,4,65,104,118
+5-15,partition_2,BALD,4,4,28,75,118
+5-15,partition_2,Indiv. NN,0,3,12,69,118
+5-15,partition_2,NN,2,3,9,41,118
+5-15,partition_2,Random,0,1,4,57,118
+5-20,primary,EPIG,4,5,65,104,118
+5-20,primary,BALD,2,4,31,72,118
+5-20,primary,Indiv. NN,1,1,10,60,118
+5-20,primary,NN,0,1,7,34,118
+5-20,primary,Random,0,1,5,56,118
+5-20,pooled_30,EPIG,4,5,65,104,118
+5-20,pooled_30,BALD,2,4,31,72,118
+5-20,pooled_30,Indiv. NN,1,1,10,60,118
+5-20,pooled_30,NN,0,2,7,35,118
+5-20,pooled_30,Random,0,1,5,56,118
+5-20,partition_0,EPIG,4,6,65,105,118
+5-20,partition_0,BALD,3,5,32,73,118
+5-20,partition_0,Indiv. NN,0,3,9,62,118
+5-20,partition_0,NN,0,1,7,34,118
+5-20,partition_0,Random,0,4,5,59,118
+5-20,partition_1,EPIG,4,5,65,104,118
+5-20,partition_1,BALD,2,3,31,71,118
+5-20,partition_1,Indiv. NN,1,2,10,61,118
+5-20,partition_1,NN,0,2,7,35,118
+5-20,partition_1,Random,0,1,5,56,118
+5-20,partition_2,EPIG,1,3,62,102,118
+5-20,partition_2,BALD,4,4,33,72,118
+5-20,partition_2,Indiv. NN,0,2,9,61,118
+5-20,partition_2,NN,2,2,9,35,118
+5-20,partition_2,Random,0,0,5,55,118
+5-30,primary,EPIG,4,4,69,102,118
+5-30,primary,BALD,3,5,29,72,118
+5-30,primary,Indiv. NN,0,2,8,54,118
+5-30,primary,NN,0,1,7,32,118
+5-30,primary,Random,0,1,5,50,118
+5-30,pooled_30,EPIG,4,5,69,103,118
+5-30,pooled_30,BALD,3,5,29,72,118
+5-30,pooled_30,Indiv. NN,0,1,8,53,118
+5-30,pooled_30,NN,0,2,7,33,118
+5-30,pooled_30,Random,0,1,5,50,118
+5-30,partition_0,EPIG,3,6,68,104,118
+5-30,partition_0,BALD,4,5,30,72,118
+5-30,partition_0,Indiv. NN,0,3,8,55,118
+5-30,partition_0,NN,0,1,7,32,118
+5-30,partition_0,Random,0,3,5,52,118
+5-30,partition_1,EPIG,4,5,69,103,118
+5-30,partition_1,BALD,2,4,28,71,118
+5-30,partition_1,Indiv. NN,1,2,9,54,118
+5-30,partition_1,NN,0,1,7,32,118
+5-30,partition_1,Random,0,1,5,50,118
+5-30,partition_2,EPIG,2,3,67,101,118
+5-30,partition_2,BALD,3,5,29,72,118
+5-30,partition_2,Indiv. NN,0,1,8,53,118
+5-30,partition_2,NN,2,3,9,34,118
+5-30,partition_2,Random,0,2,5,51,118
+10-20,primary,EPIG,3,4,64,104,118
+10-20,primary,BALD,3,5,30,74,118
+10-20,primary,Indiv. NN,1,1,11,60,118
+10-20,primary,NN,0,0,7,31,118
+10-20,primary,Random,0,1,6,54,118
+10-20,pooled_30,EPIG,3,5,64,105,118
+10-20,pooled_30,BALD,3,5,30,74,118
+10-20,pooled_30,Indiv. NN,1,1,11,60,118
+10-20,pooled_30,NN,0,1,7,32,118
+10-20,pooled_30,Random,0,1,6,54,118
+10-20,partition_0,EPIG,4,6,65,106,118
+10-20,partition_0,BALD,3,5,30,74,118
+10-20,partition_0,Indiv. NN,0,3,10,62,118
+10-20,partition_0,NN,0,1,7,32,118
+10-20,partition_0,Random,0,3,6,56,118
+10-20,partition_1,EPIG,4,5,65,105,118
+10-20,partition_1,BALD,2,4,29,73,118
+10-20,partition_1,Indiv. NN,1,2,11,61,118
+10-20,partition_1,NN,0,2,7,33,118
+10-20,partition_1,Random,0,1,6,54,118
+10-20,partition_2,EPIG,0,3,61,103,118
+10-20,partition_2,BALD,5,5,32,74,118
+10-20,partition_2,Indiv. NN,0,1,10,60,118
+10-20,partition_2,NN,2,2,9,33,118
+10-20,partition_2,Random,0,1,6,54,118
+10-30,primary,EPIG,1,4,67,104,118
+10-30,primary,BALD,5,5,31,73,118
+10-30,primary,Indiv. NN,1,2,10,57,118
+10-30,primary,NN,0,1,6,31,118
+10-30,primary,Random,0,1,4,46,118
+10-30,pooled_30,EPIG,1,5,67,105,118
+10-30,pooled_30,BALD,5,5,31,73,118
+10-30,pooled_30,Indiv. NN,1,1,10,56,118
+10-30,pooled_30,NN,0,2,6,32,118
+10-30,pooled_30,Random,0,1,4,46,118
+10-30,partition_0,EPIG,2,6,68,106,118
+10-30,partition_0,BALD,5,5,31,73,118
+10-30,partition_0,Indiv. NN,0,3,9,58,118
+10-30,partition_0,NN,0,1,6,31,118
+10-30,partition_0,Random,0,2,4,47,118
+10-30,partition_1,EPIG,4,5,70,105,118
+10-30,partition_1,BALD,2,4,28,72,118
+10-30,partition_1,Indiv. NN,1,2,10,57,118
+10-30,partition_1,NN,0,1,6,31,118
+10-30,partition_1,Random,0,1,4,46,118
+10-30,partition_2,EPIG,1,2,67,102,118
+10-30,partition_2,BALD,4,5,30,73,118
+10-30,partition_2,Indiv. NN,0,1,9,56,118
+10-30,partition_2,NN,2,3,8,33,118
+10-30,partition_2,Random,0,1,4,46,118

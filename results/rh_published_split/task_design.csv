@@ -1,0 +1,8 @@
+dataset,split_id,split_family,pool_total,n_target,n_base,warm_start,partitions,repetitions_per_partition,nested_repetitions,partition_seeds,construction,qualification
+Rh,rh_paper_ood_case1,paper_defined,96,96,384,0,3,10,30,42;43;44,test-olefin partial-OOD 96 acquisition / 96 fixed target,Protocol-matched reconstruction; original published row assignments were unavailable.
+Rh,rh_paper_ood_case2,paper_defined,96,96,384,0,3,10,30,42;43;44,test-olefin partial-OOD 96 acquisition / 96 fixed target,Protocol-matched reconstruction; original published row assignments were unavailable.
+Rh,rh_paper_ood_case3,paper_defined,96,96,384,0,3,10,30,42;43;44,test-olefin partial-OOD 96 acquisition / 96 fixed target,Protocol-matched reconstruction; original published row assignments were unavailable.
+Rh,rh_paper_ood_case4,paper_defined,96,96,768,0,3,10,30,42;43;44,test-olefin partial-OOD 96 acquisition / 96 fixed target,Protocol-matched reconstruction; original published row assignments were unavailable.
+Rh,rh_paper_ood_case5,paper_defined,96,96,768,0,3,10,30,42;43;44,test-olefin partial-OOD 96 acquisition / 96 fixed target,Protocol-matched reconstruction; original published row assignments were unavailable.
+Rh,rh_paper_ood_case6,paper_defined,96,96,768,0,3,10,30,42;43;44,test-olefin partial-OOD 96 acquisition / 96 fixed target,Protocol-matched reconstruction; original published row assignments were unavailable.
+Rh,rh_paper_ood_case7,paper_defined,96,96,384,0,3,10,30,42;43;44,test-olefin partial-OOD 96 acquisition / 96 fixed target,Protocol-matched reconstruction; original published row assignments were unavailable.

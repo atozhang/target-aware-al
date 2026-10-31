@@ -1,0 +1,154 @@
+{
+  "windows": [
+    "0-10",
+    "2-12",
+    "5-15",
+    "5-20",
+    "5-30",
+    "10-20",
+    "10-30"
+  ],
+  "rh_tasks": [
+    "rh_paper_ood_case1",
+    "rh_paper_ood_case2",
+    "rh_paper_ood_case3",
+    "rh_paper_ood_case4",
+    "rh_paper_ood_case5",
+    "rh_paper_ood_case6",
+    "rh_paper_ood_case7"
+  ],
+  "nesting_source": "results/rh_published_split/partition_map.csv",
+  "primary_scheme": "primary (seed_units_10): ten repetition-seed units, each the mean of the three fixed 96/96 partitions",
+  "si_sensitivity_schemes": [
+    "pooled_30",
+    "partition_0",
+    "partition_1",
+    "partition_2"
+  ],
+  "primary_reproduces_published": true,
+  "max_abs_mean_delta_primary_vs_pooled30": 3.3306690738754696e-16,
+  "n_highest_mean_differences_primary_vs_pooled30": 0,
+  "n_classification_changes_vs_primary": 233,
+  "rh_competitive_cells_of_35": {
+    "primary": {
+      "0-10": 12,
+      "2-12": 13,
+      "5-15": 10,
+      "5-20": 12,
+      "5-30": 13,
+      "10-20": 11,
+      "10-30": 13
+    },
+    "pooled_30": {
+      "0-10": 12,
+      "2-12": 12,
+      "5-15": 13,
+      "5-20": 13,
+      "5-30": 14,
+      "10-20": 13,
+      "10-30": 14
+    },
+    "partition_0": {
+      "0-10": 19,
+      "2-12": 19,
+      "5-15": 18,
+      "5-20": 19,
+      "5-30": 18,
+      "10-20": 18,
+      "10-30": 17
+    },
+    "partition_1": {
+      "0-10": 15,
+      "2-12": 14,
+      "5-15": 15,
+      "5-20": 13,
+      "5-30": 13,
+      "10-20": 14,
+      "10-30": 13
+    },
+    "partition_2": {
+      "0-10": 21,
+      "2-12": 20,
+      "5-15": 15,
+      "5-20": 11,
+      "5-30": 14,
+      "10-20": 12,
+      "10-30": 12
+    }
+  },
+  "overall_competitive_a2_12": {
+    "primary": {
+      "EPIG": 105,
+      "BALD": 79,
+      "Indiv. NN": 74,
+      "NN": 40,
+      "Random": 64
+    },
+    "pooled_30": {
+      "EPIG": 105,
+      "BALD": 79,
+      "Indiv. NN": 73,
+      "NN": 41,
+      "Random": 63
+    },
+    "partition_0": {
+      "EPIG": 107,
+      "BALD": 79,
+      "Indiv. NN": 76,
+      "NN": 40,
+      "Random": 66
+    },
+    "partition_1": {
+      "EPIG": 105,
+      "BALD": 79,
+      "Indiv. NN": 74,
+      "NN": 41,
+      "Random": 64
+    },
+    "partition_2": {
+      "EPIG": 105,
+      "BALD": 80,
+      "Indiv. NN": 76,
+      "NN": 42,
+      "Random": 66
+    }
+  },
+  "overall_highest_mean_a2_12": {
+    "primary": {
+      "EPIG": 74,
+      "BALD": 22,
+      "Indiv. NN": 12,
+      "NN": 7,
+      "Random": 3
+    },
+    "pooled_30": {
+      "EPIG": 74,
+      "BALD": 22,
+      "Indiv. NN": 12,
+      "NN": 7,
+      "Random": 3
+    },
+    "partition_0": {
+      "EPIG": 73,
+      "BALD": 23,
+      "Indiv. NN": 12,
+      "NN": 7,
+      "Random": 3
+    },
+    "partition_1": {
+      "EPIG": 74,
+      "BALD": 22,
+      "Indiv. NN": 12,
+      "NN": 7,
+      "Random": 3
+    },
+    "partition_2": {
+      "EPIG": 71,
+      "BALD": 23,
+      "Indiv. NN": 12,
+      "NN": 9,
+      "Random": 3
+    }
+  },
+  "note": "primary is the published basis; the others are SI sensitivities"
+}

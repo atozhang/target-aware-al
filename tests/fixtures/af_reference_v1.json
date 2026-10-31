@@ -1,0 +1,230 @@
+{
+  "arrays": {
+    "X_pool": "(200, 8) float64 candidate pool",
+    "X_target": "(40, 8) float64 target set",
+    "X_train": "(60, 8) float64 training inputs",
+    "batch10__<af>": "(10,) int64 selected pool indices, select_batch(k=10)",
+    "batch5__<af>": "(5,) int64 selected pool indices, select_batch(k=5)",
+    "scores__<af>": "(200,) float64 acquisition scores for each of the five AFs",
+    "y_train": "(60,) float64 training responses"
+  },
+  "batches": {
+    "bald_k10": [
+      147,
+      20,
+      177,
+      4,
+      0,
+      27,
+      96,
+      39,
+      136,
+      81
+    ],
+    "bald_k5": [
+      147,
+      20,
+      177,
+      4,
+      0
+    ],
+    "epig_gauss_k10": [
+      91,
+      189,
+      55,
+      190,
+      193,
+      60,
+      106,
+      62,
+      52,
+      181
+    ],
+    "epig_gauss_k5": [
+      91,
+      189,
+      55,
+      190,
+      193
+    ],
+    "nn_k10": [
+      132,
+      29,
+      102,
+      5,
+      59,
+      16,
+      133,
+      30,
+      87,
+      100
+    ],
+    "nn_k5": [
+      132,
+      29,
+      102,
+      5,
+      59
+    ],
+    "random_k10": [
+      26,
+      77,
+      171,
+      194,
+      94,
+      27,
+      198,
+      163,
+      97,
+      91
+    ],
+    "random_k5": [
+      26,
+      77,
+      171,
+      194,
+      94
+    ],
+    "test_indv_nn_k10": [
+      163,
+      172,
+      1,
+      69,
+      193,
+      54,
+      12,
+      132,
+      8,
+      78
+    ],
+    "test_indv_nn_k5": [
+      163,
+      172,
+      1,
+      69,
+      193
+    ]
+  },
+  "fixture": "af_reference_v1.npz",
+  "fixture_sha256": "cb6bf305355bb2d4b6e7ac17607f599784dfcf0c7e37a18e06993d5058dc15c8",
+  "purpose": "Acquisition-reference parity: frozen synthetic score vectors and selected-index sequences for all five acquisition functions. No experimental dataset is involved.",
+  "reference_versions": {
+    "numpy": "1.26.4",
+    "python": "3.12.8",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.0"
+  },
+  "scores": {
+    "bald": {
+      "max": 1.6559958794788614,
+      "min": 0.5354523909398263,
+      "n_finite": 200,
+      "sha256_float64_bytes": "b0ab5cc89a2d8f97f3c42f993b05ad57b901fed4d26d4a6c9bcb3bca1997ddf2",
+      "top10_indices": [
+        147,
+        20,
+        177,
+        4,
+        0,
+        27,
+        96,
+        39,
+        136,
+        81
+      ]
+    },
+    "epig_gauss": {
+      "max": 0.05953664240186516,
+      "min": 0.007464933955713041,
+      "n_finite": 200,
+      "sha256_float64_bytes": "b92e850e527bb9a541c68da36cd572d76933f3e08a8fdf3e9aede38f4d7fedac",
+      "top10_indices": [
+        91,
+        189,
+        55,
+        190,
+        193,
+        60,
+        106,
+        62,
+        52,
+        181
+      ]
+    },
+    "nn": {
+      "max": -2.930967681459913,
+      "min": -5.544888140820928,
+      "n_finite": 200,
+      "sha256_float64_bytes": "c8da0a30b4262c92bd508a45f61c50630a922bdd1f9363772c4219de280f18c5",
+      "top10_indices": [
+        132,
+        29,
+        102,
+        5,
+        59,
+        16,
+        133,
+        30,
+        87,
+        100
+      ]
+    },
+    "random": {
+      "max": 0.997209935789211,
+      "min": 0.002738500170148095,
+      "n_finite": 200,
+      "sha256_float64_bytes": "525ef82477943a36da70d6b4b6baf5ae43841ec881d620d06ba7be3c4e2272ae",
+      "top10_indices": [
+        26,
+        77,
+        171,
+        194,
+        94,
+        27,
+        198,
+        163,
+        97,
+        91
+      ]
+    },
+    "test_indv_nn": {
+      "max": 1997.2099357892112,
+      "min": 0.006408882664310167,
+      "n_finite": 200,
+      "sha256_float64_bytes": "5f84ca2f7786da139d56eb6565b900107aa238fb7ddd404ddc771afbd25517a2",
+      "top10_indices": [
+        163,
+        172,
+        1,
+        69,
+        193,
+        54,
+        12,
+        132,
+        8,
+        78
+      ]
+    }
+  },
+  "spec": {
+    "entry_points": "epig_al.acquisition_scores / epig_al.select_batch (public API wrapping AcquireManager)",
+    "metrics": [
+      "epig_gauss",
+      "bald",
+      "test_indv_nn",
+      "nn",
+      "random"
+    ],
+    "model": "sklearn RandomForestRegressor(n_estimators=30, random_state=0, n_jobs=1)",
+    "rng": "numpy.random.default_rng(20260812); draws in order: X_pool(200x8), X_target(40x8), X_train(60x8), w(8), y_noise(60)",
+    "seeding": "AcquireManager.set_seed(0) immediately before EVERY scoring/select_batch call",
+    "y_train": "X_train @ w + 0.1*noise"
+  },
+  "tolerance_policy": {
+    "fixture_file_sha256": "exact",
+    "note": "Score vectors are compared at rtol 1e-10 rather than bit-for-bit: the ensemble reductions behind epig_gauss and bald are float-order sensitive across BLAS builds. Selected indices, which are the scientifically load-bearing output, are compared exactly.",
+    "score_vectors": "rtol 1e-10, atol 0 (pinned environment; see environment.yml)",
+    "selected_indices": "exact",
+    "top10_indices": "exact"
+  }
+}

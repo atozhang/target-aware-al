@@ -1,0 +1,1097 @@
+{
+ "title": "Wittig olefination Z-selectivity dataset with 119 molecular descriptors",
+ "description": "Wittig olefination reactions with their Z-alkene selectivity and 119 numerical descriptors of the carbonyl component, the phosphorus ylide and the cis- and trans-oxaphosphetane intermediates. Two files share one descriptor block: 734 literature reactions and 233 reactions derived from CAS reaction records (967 in total).",
+ "files": [
+  {
+   "path": "wittig_literature_f119.csv",
+   "records": 734,
+   "columns": 133,
+   "source": "Curated in this work from E. Vedejs, M. J. Peterson, \"Stereochemistry and Mechanism in the Wittig Reaction\", Topics in Stereochemistry, Vol. 21, Wiley, 1994, doi:10.1002/9780470147306.ch1.",
+   "metadata_columns": [
+    {
+     "name": "record_id",
+     "dtype": "string",
+     "missing": "never",
+     "description": "Stable record identifier VP1994_T<table>_E<entry>_C<condition>, built from source_table, source_entry and condition_index."
+    },
+    {
+     "name": "source_table",
+     "dtype": "integer",
+     "missing": "never",
+     "description": "Table number in Vedejs and Peterson (1994)."
+    },
+    {
+     "name": "source_entry",
+     "dtype": "integer",
+     "missing": "never",
+     "description": "Entry number within source_table."
+    },
+    {
+     "name": "condition_index",
+     "dtype": "integer",
+     "missing": "never",
+     "description": "1-based index distinguishing experimental conditions reported for the same source entry."
+    },
+    {
+     "name": "z_selectivity_percent",
+     "dtype": "number",
+     "missing": "never",
+     "description": "Z-alkene selectivity in percent, %Z = 100*Z/(Z+E); %E = 100 - value. The model target. Literature records: the Z selectivity reported by Vedejs and Peterson (1994)."
+    },
+    {
+     "name": "temperature_c",
+     "dtype": "integer",
+     "missing": "never",
+     "description": "Reaction temperature in degrees Celsius, as reported. Not a model feature."
+    },
+    {
+     "name": "solvent_reported",
+     "dtype": "string",
+     "missing": "never",
+     "description": "Solvent notation as transcribed from the source."
+    },
+    {
+     "name": "solvent_standardized",
+     "dtype": "string",
+     "missing": "never",
+     "description": "Standardized solvent label that groups equivalent notations (for example PhH for C6H6)."
+    },
+    {
+     "name": "solvent_smiles",
+     "dtype": "string",
+     "missing": "never",
+     "description": "SMILES of the reported solvent system; components are '.'-separated and may include a reported additive. Not a model feature."
+    },
+    {
+     "name": "aldehyde_smiles",
+     "dtype": "string",
+     "missing": "never",
+     "description": "SMILES of the carbonyl component; the ald_* descriptors describe this molecule."
+    },
+    {
+     "name": "ylide_smiles",
+     "dtype": "string",
+     "missing": "never",
+     "description": "SMILES of the phosphorus ylide; the ylide_* descriptors describe this molecule."
+    },
+    {
+     "name": "base_smiles",
+     "dtype": "string",
+     "missing": "NA when no separate base is specified",
+     "description": "SMILES of the base. Not a model feature."
+    },
+    {
+     "name": "in_situ",
+     "dtype": "boolean",
+     "missing": "never",
+     "description": "True if the ylide is generated in situ. Not a model feature."
+    },
+    {
+     "name": "rxn_smiles",
+     "dtype": "string",
+     "missing": "never",
+     "description": "Unmapped reaction representation: the carbonyl component, ylide, base (if specified) and solvent components as reactants, and the cis- and trans-oxaphosphetane intermediates as products."
+    }
+   ],
+   "feature_columns": "features (all 119, in order, after the metadata columns)"
+  },
+  {
+   "path": "wittig_cas_f119.csv",
+   "records": 233,
+   "columns": 141,
+   "source": "Reactions from publications and patents dated 2010–2015 sourced from the CAS Content Collection™ (CAS is a division of the American Chemical Society); curated in this work.",
+   "metadata_columns": [
+    {
+     "name": "record_id",
+     "dtype": "string",
+     "missing": "never",
+     "description": "Stable record identifier assigned in this work (prefixes CAS_R and X48_; numbering is not contiguous). Not a CAS Registry Number or CAS reaction identifier."
+    },
+    {
+     "name": "dataset_version",
+     "dtype": "string",
+     "missing": "never",
+     "description": "Constant 'wittig_cas_f119'."
+    },
+    {
+     "name": "source_dataset",
+     "dtype": "string",
+     "missing": "never",
+     "description": "Constant 'cas': record derived from a CAS reaction record."
+    },
+    {
+     "name": "z_selectivity_percent",
+     "dtype": "number",
+     "missing": "never",
+     "description": "Z-alkene selectivity in percent, %Z = 100*Z/(Z+E); %E = 100 - value. The model target. CAS records: computed from the amounts of the Z and E alkene products recorded in the CAS reaction record, with the geometry assigned at the newly formed C=C bond, from the recorded isomer percentages or product yields; rounded to 0.1."
+    },
+    {
+     "name": "rxn_smiles",
+     "dtype": "string",
+     "missing": "never",
+     "description": "Atom-mapped reaction SMILES of the CAS reaction record (reactants>>product)."
+    },
+    {
+     "name": "aldehyde_smiles",
+     "dtype": "string",
+     "missing": "never",
+     "description": "SMILES of the carbonyl component (aldehyde or ketone); the ald_* descriptors describe this molecule. Written as recorded; some strings keep explicit-hydrogen bracket atoms."
+    },
+    {
+     "name": "ylide_smiles",
+     "dtype": "string",
+     "missing": "never",
+     "description": "SMILES of the phosphorus ylide; the ylide_* descriptors describe this molecule."
+    },
+    {
+     "name": "base_smiles",
+     "dtype": "string",
+     "missing": "NA when no base is assigned",
+     "description": "SMILES of the base. Not a model feature."
+    },
+    {
+     "name": "cis_opa_smiles",
+     "dtype": "string",
+     "missing": "never",
+     "description": "SMILES of the cis-oxaphosphetane intermediate."
+    },
+    {
+     "name": "trans_opa_smiles",
+     "dtype": "string",
+     "missing": "never",
+     "description": "SMILES of the trans-oxaphosphetane intermediate."
+    },
+    {
+     "name": "in_situ",
+     "dtype": "boolean",
+     "missing": "never",
+     "description": "True if the ylide is generated in situ. Not a model feature."
+    },
+    {
+     "name": "temperature_c",
+     "dtype": "number",
+     "missing": "NA when no single numeric temperature is assigned",
+     "description": "Reaction temperature in degrees Celsius. Not a model feature. The recorded stage conditions are in cas_stage_conditions."
+    },
+    {
+     "name": "cas_n_stages",
+     "dtype": "integer",
+     "missing": "never",
+     "description": "Number of stages in the CAS reaction record."
+    },
+    {
+     "name": "cas_olefination_stage",
+     "dtype": "integer",
+     "missing": "never",
+     "description": "Stage in which the carbonyl component and the ylide (or its precursor) are combined: the last stage that introduces a reactant."
+    },
+    {
+     "name": "cas_stage_conditions",
+     "dtype": "string",
+     "missing": "never",
+     "description": "Conditions recorded by CAS for each stage (temperature, duration, pressure) as 'stN: ...'. Stages are separated by ' | ' and condition entries within a stage by '; '. 'a to b' is a range, 'x -> y' a temperature change, '-' none recorded."
+    },
+    {
+     "name": "solvent_record_status",
+     "dtype": "string",
+     "missing": "never",
+     "description": "Solvent recorded for the olefination stage: 'single', 'multiple' (two or more solvents), or 'no_solvent_recorded' (no reaction solvent in any stage of the CAS record: missing information, not evidence of solvent-free conditions)."
+    },
+    {
+     "name": "solvent_reported",
+     "dtype": "string",
+     "missing": "NA when no solvent is recorded or the CAS substance has no name in the source data",
+     "description": "CAS substance name(s) of the olefination-stage solvent(s), '+'-separated in record order. CAS RN 1330-20-7 (xylene, mixture of isomers) has no name or structure in the source data."
+    },
+    {
+     "name": "solvent_cas_rn",
+     "dtype": "string",
+     "missing": "NA when no solvent is recorded",
+     "description": "CAS Registry Number of each olefination-stage solvent, ';'-separated in the same order."
+    },
+    {
+     "name": "solvent_smiles",
+     "dtype": "string",
+     "missing": "NA when no solvent is recorded or no single structure exists",
+     "description": "Structure of each olefination-stage solvent from the CAS substance record, '.'-separated in the same order."
+    },
+    {
+     "name": "solvent_stage",
+     "dtype": "integer",
+     "missing": "NA when no solvent is recorded",
+     "description": "Stage of the recorded solvent entry (equal to cas_olefination_stage)."
+    },
+    {
+     "name": "solvent_other_stages",
+     "dtype": "string",
+     "missing": "NA when no other stage lists a solvent",
+     "description": "Solvents listed for other stages, not counted as the reaction solvent: 'stN(window)' is an earlier stage (for example reagent preparation) and 'stN(post)' a later stage (for example heating in a new medium or an aqueous quench). Stages are separated by ' | '."
+    },
+    {
+     "name": "cas_stage_trace",
+     "dtype": "string",
+     "missing": "never",
+     "description": "Per-stage summary of the CAS record: 'stN(window|post): solv=...; reactants=<n>; reagents=...; catalysts=...', where '(window)' marks stages up to the olefination stage and '(post)' later stages. Stages are separated by ' | ', '-' means none listed, and '[number]' is a CAS substance without a name in the source data."
+    }
+   ],
+   "feature_columns": "features (all 119, in order, after the metadata columns)"
+  }
+ ],
+ "combined": {
+  "records": 967,
+  "rule": "Concatenate the rows of both files. record_id is unique across them, and the descriptor columns have identical names and order."
+ },
+ "target": {
+  "column": "z_selectivity_percent",
+  "unit": "percent Z",
+  "definition": "Z-alkene selectivity in percent, %Z = 100*Z/(Z+E); %E = 100 - value. The model target."
+ },
+ "features": {
+  "count": 119,
+  "dtype": "number",
+  "missing": "never",
+  "method": "Single-molecule GFN2-xTB calculations (gas phase, neutral species). Electronic descriptors from morfeus XTB, dispersion and surface descriptors from morfeus Dispersion, steric descriptors from morfeus Sterimol, and free energies from the xTB thermochemistry. The full protocol is described in the Supporting Information.",
+  "not_features": "Metadata columns are not model inputs: temperature, base, solvent labels and structures, the in-situ flag and the stage information are context only.",
+  "columns": [
+   {
+    "name": "R1_sterimol_cis_B1",
+    "index": 0,
+    "unit": "angstrom",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "Sterimol B1 of OPA ring substituent R1 in the cis-oxaphosphetane (cis-OPA) (morfeus Sterimol); R1/R2 labelling as defined in the Supporting Information"
+   },
+   {
+    "name": "R1_sterimol_cis_B5",
+    "index": 1,
+    "unit": "angstrom",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "Sterimol B5 of OPA ring substituent R1 in the cis-oxaphosphetane (cis-OPA) (morfeus Sterimol); R1/R2 labelling as defined in the Supporting Information"
+   },
+   {
+    "name": "R1_sterimol_cis_L",
+    "index": 2,
+    "unit": "angstrom",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "Sterimol L of OPA ring substituent R1 in the cis-oxaphosphetane (cis-OPA) (morfeus Sterimol); R1/R2 labelling as defined in the Supporting Information"
+   },
+   {
+    "name": "R1_sterimol_trans_B1",
+    "index": 3,
+    "unit": "angstrom",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "Sterimol B1 of OPA ring substituent R1 in the trans-oxaphosphetane (trans-OPA) (morfeus Sterimol); R1/R2 labelling as defined in the Supporting Information"
+   },
+   {
+    "name": "R1_sterimol_trans_B5",
+    "index": 4,
+    "unit": "angstrom",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "Sterimol B5 of OPA ring substituent R1 in the trans-oxaphosphetane (trans-OPA) (morfeus Sterimol); R1/R2 labelling as defined in the Supporting Information"
+   },
+   {
+    "name": "R1_sterimol_trans_L",
+    "index": 5,
+    "unit": "angstrom",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "Sterimol L of OPA ring substituent R1 in the trans-oxaphosphetane (trans-OPA) (morfeus Sterimol); R1/R2 labelling as defined in the Supporting Information"
+   },
+   {
+    "name": "R2_sterimol_cis_B1",
+    "index": 6,
+    "unit": "angstrom",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "Sterimol B1 of OPA ring substituent R2 in the cis-oxaphosphetane (cis-OPA) (morfeus Sterimol); R1/R2 labelling as defined in the Supporting Information"
+   },
+   {
+    "name": "R2_sterimol_cis_B5",
+    "index": 7,
+    "unit": "angstrom",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "Sterimol B5 of OPA ring substituent R2 in the cis-oxaphosphetane (cis-OPA) (morfeus Sterimol); R1/R2 labelling as defined in the Supporting Information"
+   },
+   {
+    "name": "R2_sterimol_cis_L",
+    "index": 8,
+    "unit": "angstrom",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "Sterimol L of OPA ring substituent R2 in the cis-oxaphosphetane (cis-OPA) (morfeus Sterimol); R1/R2 labelling as defined in the Supporting Information"
+   },
+   {
+    "name": "R2_sterimol_trans_B1",
+    "index": 9,
+    "unit": "angstrom",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "Sterimol B1 of OPA ring substituent R2 in the trans-oxaphosphetane (trans-OPA) (morfeus Sterimol); R1/R2 labelling as defined in the Supporting Information"
+   },
+   {
+    "name": "R2_sterimol_trans_B5",
+    "index": 10,
+    "unit": "angstrom",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "Sterimol B5 of OPA ring substituent R2 in the trans-oxaphosphetane (trans-OPA) (morfeus Sterimol); R1/R2 labelling as defined in the Supporting Information"
+   },
+   {
+    "name": "R2_sterimol_trans_L",
+    "index": 11,
+    "unit": "angstrom",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "Sterimol L of OPA ring substituent R2 in the trans-oxaphosphetane (trans-OPA) (morfeus Sterimol); R1/R2 labelling as defined in the Supporting Information"
+   },
+   {
+    "name": "ald_EA",
+    "index": 12,
+    "unit": "eV",
+    "molecule": "carbonyl component (aldehyde or ketone)",
+    "description": "vertical electron affinity, GFN2-xTB (morfeus XTB.get_ea, corrected=False); molecule: carbonyl component (aldehyde or ketone)"
+   },
+   {
+    "name": "ald_HOMO",
+    "index": 13,
+    "unit": "Eh",
+    "molecule": "carbonyl component (aldehyde or ketone)",
+    "description": "HOMO energy, GFN2-xTB (morfeus XTB.get_homo, atomic units); molecule: carbonyl component (aldehyde or ketone)"
+   },
+   {
+    "name": "ald_IP",
+    "index": 14,
+    "unit": "eV",
+    "molecule": "carbonyl component (aldehyde or ketone)",
+    "description": "vertical ionization potential, GFN2-xTB (morfeus XTB.get_ip, corrected=False); molecule: carbonyl component (aldehyde or ketone)"
+   },
+   {
+    "name": "ald_LUMO",
+    "index": 15,
+    "unit": "Eh",
+    "molecule": "carbonyl component (aldehyde or ketone)",
+    "description": "LUMO energy, GFN2-xTB (morfeus XTB.get_lumo, atomic units); molecule: carbonyl component (aldehyde or ketone)"
+   },
+   {
+    "name": "ald_P_int",
+    "index": 16,
+    "unit": "kcal^(1/2) mol^(-1/2)",
+    "molecule": "carbonyl component (aldehyde or ketone)",
+    "description": "molecular dispersion descriptor P_int (morfeus Dispersion); molecule: carbonyl component (aldehyde or ketone)"
+   },
+   {
+    "name": "ald_dipole_total",
+    "index": 17,
+    "unit": "e*bohr (a.u.)",
+    "molecule": "carbonyl component (aldehyde or ketone)",
+    "description": "magnitude of the GFN2-xTB dipole vector (morfeus XTB.get_dipole), rounded to 4 decimals; molecule: carbonyl component (aldehyde or ketone)"
+   },
+   {
+    "name": "ald_electrophilicity",
+    "index": 18,
+    "unit": "eV",
+    "molecule": "carbonyl component (aldehyde or ketone)",
+    "description": "global electrophilicity index (morfeus XTB.get_global_descriptor 'electrophilicity'); molecule: carbonyl component (aldehyde or ketone)"
+   },
+   {
+    "name": "ald_greatest_negative_charge",
+    "index": 19,
+    "unit": "e",
+    "molecule": "carbonyl component (aldehyde or ketone)",
+    "description": "most negative GFN2-xTB atomic partial charge in the molecule; molecule: carbonyl component (aldehyde or ketone)"
+   },
+   {
+    "name": "ald_greatest_positive_charge",
+    "index": 20,
+    "unit": "e",
+    "molecule": "carbonyl component (aldehyde or ketone)",
+    "description": "most positive GFN2-xTB atomic partial charge in the molecule; molecule: carbonyl component (aldehyde or ketone)"
+   },
+   {
+    "name": "ald_highest_ep_fukui",
+    "index": 21,
+    "unit": "dimensionless",
+    "molecule": "carbonyl component (aldehyde or ketone)",
+    "description": "largest atomic electrophilic Fukui index (morfeus XTB.get_fukui 'electrophilicity'); molecule: carbonyl component (aldehyde or ketone)"
+   },
+   {
+    "name": "ald_highest_nuc_fukui",
+    "index": 22,
+    "unit": "dimensionless",
+    "molecule": "carbonyl component (aldehyde or ketone)",
+    "description": "largest atomic nucleophilic Fukui index (morfeus XTB.get_fukui 'nucleophilicity'); molecule: carbonyl component (aldehyde or ketone)"
+   },
+   {
+    "name": "ald_nucleophilicity",
+    "index": 23,
+    "unit": "eV",
+    "molecule": "carbonyl component (aldehyde or ketone)",
+    "description": "global nucleophilicity index (morfeus XTB.get_global_descriptor 'nucleophilicity', corrected=True); molecule: carbonyl component (aldehyde or ketone)"
+   },
+   {
+    "name": "ald_surface_area",
+    "index": 24,
+    "unit": "angstrom^2",
+    "molecule": "carbonyl component (aldehyde or ketone)",
+    "description": "van der Waals surface area (morfeus Dispersion); molecule: carbonyl component (aldehyde or ketone)"
+   },
+   {
+    "name": "ald_surface_volume",
+    "index": 25,
+    "unit": "angstrom^3",
+    "molecule": "carbonyl component (aldehyde or ketone)",
+    "description": "van der Waals surface volume (morfeus Dispersion); molecule: carbonyl component (aldehyde or ketone)"
+   },
+   {
+    "name": "ald_total_free_energy",
+    "index": 26,
+    "unit": "Eh",
+    "molecule": "carbonyl component (aldehyde or ketone)",
+    "description": "GFN2-xTB total free energy from the xTB thermochemistry output; molecule: carbonyl component (aldehyde or ketone)"
+   },
+   {
+    "name": "ald_total_free_energy_kJ",
+    "index": 27,
+    "unit": "kJ/mol",
+    "molecule": "carbonyl component (aldehyde or ketone)",
+    "description": "total_free_energy x 2625.50, rounded to 6 decimals; molecule: carbonyl component (aldehyde or ketone)"
+   },
+   {
+    "name": "ald_total_free_energy_kcal",
+    "index": 28,
+    "unit": "kcal/mol",
+    "molecule": "carbonyl component (aldehyde or ketone)",
+    "description": "total_free_energy x 627.509, rounded to 6 decimals; molecule: carbonyl component (aldehyde or ketone)"
+   },
+   {
+    "name": "cis_EA",
+    "index": 29,
+    "unit": "eV",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "vertical electron affinity, GFN2-xTB (morfeus XTB.get_ea, corrected=False); molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "cis_HOMO",
+    "index": 30,
+    "unit": "Eh",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "HOMO energy, GFN2-xTB (morfeus XTB.get_homo, atomic units); molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "cis_IP",
+    "index": 31,
+    "unit": "eV",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "vertical ionization potential, GFN2-xTB (morfeus XTB.get_ip, corrected=False); molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "cis_LUMO",
+    "index": 32,
+    "unit": "Eh",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "LUMO energy, GFN2-xTB (morfeus XTB.get_lumo, atomic units); molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "cis_P_int",
+    "index": 33,
+    "unit": "kcal^(1/2) mol^(-1/2)",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "molecular dispersion descriptor P_int (morfeus Dispersion); molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "cis_dipole_total",
+    "index": 34,
+    "unit": "e*bohr (a.u.)",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "magnitude of the GFN2-xTB dipole vector (morfeus XTB.get_dipole), rounded to 4 decimals; molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "cis_electrophilicity",
+    "index": 35,
+    "unit": "eV",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "global electrophilicity index (morfeus XTB.get_global_descriptor 'electrophilicity'); molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "cis_greatest_negative_charge",
+    "index": 36,
+    "unit": "e",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "most negative GFN2-xTB atomic partial charge in the molecule; molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "cis_greatest_positive_charge",
+    "index": 37,
+    "unit": "e",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "most positive GFN2-xTB atomic partial charge in the molecule; molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "cis_highest_ep_fukui",
+    "index": 38,
+    "unit": "dimensionless",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "largest atomic electrophilic Fukui index (morfeus XTB.get_fukui 'electrophilicity'); molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "cis_highest_nuc_fukui",
+    "index": 39,
+    "unit": "dimensionless",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "largest atomic nucleophilic Fukui index (morfeus XTB.get_fukui 'nucleophilicity'); molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "cis_nucleophilicity",
+    "index": 40,
+    "unit": "eV",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "global nucleophilicity index (morfeus XTB.get_global_descriptor 'nucleophilicity', corrected=True); molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "cis_opa_charge_c1",
+    "index": 41,
+    "unit": "e",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "GFN2-xTB atomic partial charge at the OPA ring carbon bonded to P (ylide-derived); molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "cis_opa_charge_c2",
+    "index": 42,
+    "unit": "e",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "GFN2-xTB atomic partial charge at the OPA ring carbon bonded to O (carbonyl-derived); molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "cis_opa_charge_o",
+    "index": 43,
+    "unit": "e",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "GFN2-xTB atomic partial charge at the OPA ring oxygen; molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "cis_opa_charge_p",
+    "index": 44,
+    "unit": "e",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "GFN2-xTB atomic partial charge at the OPA ring phosphorus; molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "cis_opa_ep_fukui_c1",
+    "index": 45,
+    "unit": "dimensionless",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "electrophilic Fukui index at the OPA ring carbon bonded to P (ylide-derived); molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "cis_opa_ep_fukui_c2",
+    "index": 46,
+    "unit": "dimensionless",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "electrophilic Fukui index at the OPA ring carbon bonded to O (carbonyl-derived); molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "cis_opa_ep_fukui_o",
+    "index": 47,
+    "unit": "dimensionless",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "electrophilic Fukui index at the OPA ring oxygen; molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "cis_opa_ep_fukui_p",
+    "index": 48,
+    "unit": "dimensionless",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "electrophilic Fukui index at the OPA ring phosphorus; molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "cis_opa_nuc_fukui_c1",
+    "index": 49,
+    "unit": "dimensionless",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "nucleophilic Fukui index at the OPA ring carbon bonded to P (ylide-derived); molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "cis_opa_nuc_fukui_c2",
+    "index": 50,
+    "unit": "dimensionless",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "nucleophilic Fukui index at the OPA ring carbon bonded to O (carbonyl-derived); molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "cis_opa_nuc_fukui_o",
+    "index": 51,
+    "unit": "dimensionless",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "nucleophilic Fukui index at the OPA ring oxygen; molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "cis_opa_nuc_fukui_p",
+    "index": 52,
+    "unit": "dimensionless",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "nucleophilic Fukui index at the OPA ring phosphorus; molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "cis_r1_charge",
+    "index": 53,
+    "unit": "e",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "GFN2-xTB atomic partial charge at the attachment atom of OPA ring substituent R1 (heavy atom bonded to a ring carbon; R1/R2 labelling as defined in the Supporting Information); molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "cis_r1_ep_fukui",
+    "index": 54,
+    "unit": "dimensionless",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "electrophilic Fukui index at the attachment atom of OPA ring substituent R1 (heavy atom bonded to a ring carbon; R1/R2 labelling as defined in the Supporting Information); molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "cis_r1_nuc_fukui",
+    "index": 55,
+    "unit": "dimensionless",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "nucleophilic Fukui index at the attachment atom of OPA ring substituent R1 (heavy atom bonded to a ring carbon; R1/R2 labelling as defined in the Supporting Information); molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "cis_r2_charge",
+    "index": 56,
+    "unit": "e",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "GFN2-xTB atomic partial charge at the attachment atom of OPA ring substituent R2 (heavy atom bonded to a ring carbon; R1/R2 labelling as defined in the Supporting Information); molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "cis_r2_ep_fukui",
+    "index": 57,
+    "unit": "dimensionless",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "electrophilic Fukui index at the attachment atom of OPA ring substituent R2 (heavy atom bonded to a ring carbon; R1/R2 labelling as defined in the Supporting Information); molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "cis_r2_nuc_fukui",
+    "index": 58,
+    "unit": "dimensionless",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "nucleophilic Fukui index at the attachment atom of OPA ring substituent R2 (heavy atom bonded to a ring carbon; R1/R2 labelling as defined in the Supporting Information); molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "cis_surface_area",
+    "index": 59,
+    "unit": "angstrom^2",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "van der Waals surface area (morfeus Dispersion); molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "cis_surface_volume",
+    "index": 60,
+    "unit": "angstrom^3",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "van der Waals surface volume (morfeus Dispersion); molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "cis_total_free_energy",
+    "index": 61,
+    "unit": "Eh",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "GFN2-xTB total free energy from the xTB thermochemistry output; molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "cis_total_free_energy_kJ",
+    "index": 62,
+    "unit": "kJ/mol",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "total_free_energy x 2625.50, rounded to 6 decimals; molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "cis_total_free_energy_kcal",
+    "index": 63,
+    "unit": "kcal/mol",
+    "molecule": "cis-oxaphosphetane (cis-OPA)",
+    "description": "total_free_energy x 627.509, rounded to 6 decimals; molecule: cis-oxaphosphetane (cis-OPA)"
+   },
+   {
+    "name": "delta_G_cis_trans",
+    "index": 64,
+    "unit": "Eh",
+    "molecule": "cis-OPA vs trans-OPA",
+    "description": "G(cis-OPA) - G(trans-OPA) from GFN2-xTB total free energies"
+   },
+   {
+    "name": "delta_G_cis_trans_kJ",
+    "index": 65,
+    "unit": "kJ/mol",
+    "molecule": "cis-OPA vs trans-OPA",
+    "description": "G(cis-OPA) - G(trans-OPA) from GFN2-xTB total free energies, converted to kJ/mol and rounded to 6 decimals"
+   },
+   {
+    "name": "delta_G_cis_trans_kcal",
+    "index": 66,
+    "unit": "kcal/mol",
+    "molecule": "cis-OPA vs trans-OPA",
+    "description": "G(cis-OPA) - G(trans-OPA) from GFN2-xTB total free energies, converted to kcal/mol and rounded to 6 decimals"
+   },
+   {
+    "name": "trans_EA",
+    "index": 67,
+    "unit": "eV",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "vertical electron affinity, GFN2-xTB (morfeus XTB.get_ea, corrected=False); molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "trans_HOMO",
+    "index": 68,
+    "unit": "Eh",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "HOMO energy, GFN2-xTB (morfeus XTB.get_homo, atomic units); molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "trans_IP",
+    "index": 69,
+    "unit": "eV",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "vertical ionization potential, GFN2-xTB (morfeus XTB.get_ip, corrected=False); molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "trans_LUMO",
+    "index": 70,
+    "unit": "Eh",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "LUMO energy, GFN2-xTB (morfeus XTB.get_lumo, atomic units); molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "trans_P_int",
+    "index": 71,
+    "unit": "kcal^(1/2) mol^(-1/2)",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "molecular dispersion descriptor P_int (morfeus Dispersion); molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "trans_dipole_total",
+    "index": 72,
+    "unit": "e*bohr (a.u.)",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "magnitude of the GFN2-xTB dipole vector (morfeus XTB.get_dipole), rounded to 4 decimals; molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "trans_electrophilicity",
+    "index": 73,
+    "unit": "eV",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "global electrophilicity index (morfeus XTB.get_global_descriptor 'electrophilicity'); molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "trans_greatest_negative_charge",
+    "index": 74,
+    "unit": "e",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "most negative GFN2-xTB atomic partial charge in the molecule; molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "trans_greatest_positive_charge",
+    "index": 75,
+    "unit": "e",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "most positive GFN2-xTB atomic partial charge in the molecule; molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "trans_highest_ep_fukui",
+    "index": 76,
+    "unit": "dimensionless",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "largest atomic electrophilic Fukui index (morfeus XTB.get_fukui 'electrophilicity'); molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "trans_highest_nuc_fukui",
+    "index": 77,
+    "unit": "dimensionless",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "largest atomic nucleophilic Fukui index (morfeus XTB.get_fukui 'nucleophilicity'); molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "trans_nucleophilicity",
+    "index": 78,
+    "unit": "eV",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "global nucleophilicity index (morfeus XTB.get_global_descriptor 'nucleophilicity', corrected=True); molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "trans_opa_charge_c1",
+    "index": 79,
+    "unit": "e",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "GFN2-xTB atomic partial charge at the OPA ring carbon bonded to P (ylide-derived); molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "trans_opa_charge_c2",
+    "index": 80,
+    "unit": "e",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "GFN2-xTB atomic partial charge at the OPA ring carbon bonded to O (carbonyl-derived); molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "trans_opa_charge_o",
+    "index": 81,
+    "unit": "e",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "GFN2-xTB atomic partial charge at the OPA ring oxygen; molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "trans_opa_charge_p",
+    "index": 82,
+    "unit": "e",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "GFN2-xTB atomic partial charge at the OPA ring phosphorus; molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "trans_opa_ep_fukui_c1",
+    "index": 83,
+    "unit": "dimensionless",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "electrophilic Fukui index at the OPA ring carbon bonded to P (ylide-derived); molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "trans_opa_ep_fukui_c2",
+    "index": 84,
+    "unit": "dimensionless",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "electrophilic Fukui index at the OPA ring carbon bonded to O (carbonyl-derived); molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "trans_opa_ep_fukui_o",
+    "index": 85,
+    "unit": "dimensionless",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "electrophilic Fukui index at the OPA ring oxygen; molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "trans_opa_ep_fukui_p",
+    "index": 86,
+    "unit": "dimensionless",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "electrophilic Fukui index at the OPA ring phosphorus; molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "trans_opa_nuc_fukui_c1",
+    "index": 87,
+    "unit": "dimensionless",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "nucleophilic Fukui index at the OPA ring carbon bonded to P (ylide-derived); molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "trans_opa_nuc_fukui_c2",
+    "index": 88,
+    "unit": "dimensionless",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "nucleophilic Fukui index at the OPA ring carbon bonded to O (carbonyl-derived); molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "trans_opa_nuc_fukui_o",
+    "index": 89,
+    "unit": "dimensionless",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "nucleophilic Fukui index at the OPA ring oxygen; molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "trans_opa_nuc_fukui_p",
+    "index": 90,
+    "unit": "dimensionless",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "nucleophilic Fukui index at the OPA ring phosphorus; molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "trans_r1_charge",
+    "index": 91,
+    "unit": "e",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "GFN2-xTB atomic partial charge at the attachment atom of OPA ring substituent R1 (heavy atom bonded to a ring carbon; R1/R2 labelling as defined in the Supporting Information); molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "trans_r1_ep_fukui",
+    "index": 92,
+    "unit": "dimensionless",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "electrophilic Fukui index at the attachment atom of OPA ring substituent R1 (heavy atom bonded to a ring carbon; R1/R2 labelling as defined in the Supporting Information); molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "trans_r1_nuc_fukui",
+    "index": 93,
+    "unit": "dimensionless",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "nucleophilic Fukui index at the attachment atom of OPA ring substituent R1 (heavy atom bonded to a ring carbon; R1/R2 labelling as defined in the Supporting Information); molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "trans_r2_charge",
+    "index": 94,
+    "unit": "e",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "GFN2-xTB atomic partial charge at the attachment atom of OPA ring substituent R2 (heavy atom bonded to a ring carbon; R1/R2 labelling as defined in the Supporting Information); molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "trans_r2_ep_fukui",
+    "index": 95,
+    "unit": "dimensionless",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "electrophilic Fukui index at the attachment atom of OPA ring substituent R2 (heavy atom bonded to a ring carbon; R1/R2 labelling as defined in the Supporting Information); molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "trans_r2_nuc_fukui",
+    "index": 96,
+    "unit": "dimensionless",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "nucleophilic Fukui index at the attachment atom of OPA ring substituent R2 (heavy atom bonded to a ring carbon; R1/R2 labelling as defined in the Supporting Information); molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "trans_surface_area",
+    "index": 97,
+    "unit": "angstrom^2",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "van der Waals surface area (morfeus Dispersion); molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "trans_surface_volume",
+    "index": 98,
+    "unit": "angstrom^3",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "van der Waals surface volume (morfeus Dispersion); molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "trans_total_free_energy",
+    "index": 99,
+    "unit": "Eh",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "GFN2-xTB total free energy from the xTB thermochemistry output; molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "trans_total_free_energy_kJ",
+    "index": 100,
+    "unit": "kJ/mol",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "total_free_energy x 2625.50, rounded to 6 decimals; molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "trans_total_free_energy_kcal",
+    "index": 101,
+    "unit": "kcal/mol",
+    "molecule": "trans-oxaphosphetane (trans-OPA)",
+    "description": "total_free_energy x 627.509, rounded to 6 decimals; molecule: trans-oxaphosphetane (trans-OPA)"
+   },
+   {
+    "name": "ylide_EA",
+    "index": 102,
+    "unit": "eV",
+    "molecule": "phosphonium ylide",
+    "description": "vertical electron affinity, GFN2-xTB (morfeus XTB.get_ea, corrected=False); molecule: phosphonium ylide"
+   },
+   {
+    "name": "ylide_HOMO",
+    "index": 103,
+    "unit": "Eh",
+    "molecule": "phosphonium ylide",
+    "description": "HOMO energy, GFN2-xTB (morfeus XTB.get_homo, atomic units); molecule: phosphonium ylide"
+   },
+   {
+    "name": "ylide_IP",
+    "index": 104,
+    "unit": "eV",
+    "molecule": "phosphonium ylide",
+    "description": "vertical ionization potential, GFN2-xTB (morfeus XTB.get_ip, corrected=False); molecule: phosphonium ylide"
+   },
+   {
+    "name": "ylide_LUMO",
+    "index": 105,
+    "unit": "Eh",
+    "molecule": "phosphonium ylide",
+    "description": "LUMO energy, GFN2-xTB (morfeus XTB.get_lumo, atomic units); molecule: phosphonium ylide"
+   },
+   {
+    "name": "ylide_P_int",
+    "index": 106,
+    "unit": "kcal^(1/2) mol^(-1/2)",
+    "molecule": "phosphonium ylide",
+    "description": "molecular dispersion descriptor P_int (morfeus Dispersion); molecule: phosphonium ylide"
+   },
+   {
+    "name": "ylide_dipole_total",
+    "index": 107,
+    "unit": "e*bohr (a.u.)",
+    "molecule": "phosphonium ylide",
+    "description": "magnitude of the GFN2-xTB dipole vector (morfeus XTB.get_dipole), rounded to 4 decimals; molecule: phosphonium ylide"
+   },
+   {
+    "name": "ylide_electrophilicity",
+    "index": 108,
+    "unit": "eV",
+    "molecule": "phosphonium ylide",
+    "description": "global electrophilicity index (morfeus XTB.get_global_descriptor 'electrophilicity'); molecule: phosphonium ylide"
+   },
+   {
+    "name": "ylide_greatest_negative_charge",
+    "index": 109,
+    "unit": "e",
+    "molecule": "phosphonium ylide",
+    "description": "most negative GFN2-xTB atomic partial charge in the molecule; molecule: phosphonium ylide"
+   },
+   {
+    "name": "ylide_greatest_positive_charge",
+    "index": 110,
+    "unit": "e",
+    "molecule": "phosphonium ylide",
+    "description": "most positive GFN2-xTB atomic partial charge in the molecule; molecule: phosphonium ylide"
+   },
+   {
+    "name": "ylide_highest_ep_fukui",
+    "index": 111,
+    "unit": "dimensionless",
+    "molecule": "phosphonium ylide",
+    "description": "largest atomic electrophilic Fukui index (morfeus XTB.get_fukui 'electrophilicity'); molecule: phosphonium ylide"
+   },
+   {
+    "name": "ylide_highest_nuc_fukui",
+    "index": 112,
+    "unit": "dimensionless",
+    "molecule": "phosphonium ylide",
+    "description": "largest atomic nucleophilic Fukui index (morfeus XTB.get_fukui 'nucleophilicity'); molecule: phosphonium ylide"
+   },
+   {
+    "name": "ylide_nucleophilicity",
+    "index": 113,
+    "unit": "eV",
+    "molecule": "phosphonium ylide",
+    "description": "global nucleophilicity index (morfeus XTB.get_global_descriptor 'nucleophilicity', corrected=True); molecule: phosphonium ylide"
+   },
+   {
+    "name": "ylide_surface_area",
+    "index": 114,
+    "unit": "angstrom^2",
+    "molecule": "phosphonium ylide",
+    "description": "van der Waals surface area (morfeus Dispersion); molecule: phosphonium ylide"
+   },
+   {
+    "name": "ylide_surface_volume",
+    "index": 115,
+    "unit": "angstrom^3",
+    "molecule": "phosphonium ylide",
+    "description": "van der Waals surface volume (morfeus Dispersion); molecule: phosphonium ylide"
+   },
+   {
+    "name": "ylide_total_free_energy",
+    "index": 116,
+    "unit": "Eh",
+    "molecule": "phosphonium ylide",
+    "description": "GFN2-xTB total free energy from the xTB thermochemistry output; molecule: phosphonium ylide"
+   },
+   {
+    "name": "ylide_total_free_energy_kJ",
+    "index": 117,
+    "unit": "kJ/mol",
+    "molecule": "phosphonium ylide",
+    "description": "total_free_energy x 2625.50, rounded to 6 decimals; molecule: phosphonium ylide"
+   },
+   {
+    "name": "ylide_total_free_energy_kcal",
+    "index": 118,
+    "unit": "kcal/mol",
+    "molecule": "phosphonium ylide",
+    "description": "total_free_energy x 627.509, rounded to 6 decimals; molecule: phosphonium ylide"
+   }
+  ]
+ },
+ "missing_values": {
+  "token": "NA",
+  "where": "Metadata columns only; the target and the descriptors are never missing.",
+  "pandas": "pd.read_csv(path, keep_default_na=False, na_values=['NA'])"
+ },
+ "encoding": "UTF-8, comma-separated, header row, RFC 4180 quoting"
+}

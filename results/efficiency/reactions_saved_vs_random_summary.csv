@@ -1,0 +1,6 @@
+method,n_tasks,mean_reactions_saved,sd_reactions_saved,median_reactions_saved,ci_lo,ci_hi,n_saved_gt_zero,n_saved_zero,n_saved_lt_zero,n_full_budget_method,n_full_budget_random,n_full_budget_both,bootstrap_seed_parts,bootstrap_seed
+EPIG,118,81.16101694915254,204.43869247320464,61.0,45.424460451663144,120.3296354166666,95,14,9,16,50,13,n_reactions|Overall|Random|d,3382740998
+BALD,118,26.1864406779661,239.87004847719882,32.5,-18.026278816876903,66.2692634408602,80,14,24,22,50,14,n_reactions|Overall|Random|BALD|d,2225935390
+IndvNN,118,27.779661016949152,241.47134938589107,4.0,9.529800556586272,50.14164142288384,62,31,25,38,50,28,n_reactions|Overall|Random|IndvNN|d,4193014655
+NN,118,-80.71186440677967,326.53419872190386,0.0,-252.36657961460446,35.27191868592728,33,30,55,73,50,29,n_reactions|Overall|Random|NN|d,1624363823
+Random,118,0.0,0.0,0.0,0.0,0.0,0,118,0,50,50,50,n_reactions|Overall|Random|Random|d,1714580582

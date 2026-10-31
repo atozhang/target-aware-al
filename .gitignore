@@ -1,0 +1,38 @@
+# Python caches / build
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.cache/
+.venv/
+venv/
+
+# Local run scratch (all released results and figures ARE committed)
+results/runs/
+results/reports/
+results/logs/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Credentials and local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+credentials.json
+service-account*.json

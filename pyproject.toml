@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "epig-active-learning"
+version = "1.0.0"
+description = "Target-aware active learning (EPIG) for reaction-outcome prediction"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Anji Zhang" }]
+keywords = ["active-learning", "EPIG", "cheminformatics", "reaction-outcome", "machine-learning"]
+
+# Core dependencies for the EPIG method layer and released analysis scripts.
+# Versions are pinned in environment.yml for the validated analysis environment;
+# the floors here are the minimum tested.
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "scikit-learn>=1.3",
+    "pandas>=2.0",
+]
+
+[project.optional-dependencies]
+# Extras needed only to render the released figures.
+figures = ["matplotlib>=3.7"]
+# Extras to run the notebooks.
+notebook = ["jupyter>=1.0", "matplotlib>=3.7"]
+# Extra for scripts/wittig_qualitative_study.py.
+qualitative = ["xgboost>=3.1"]
+# Exact optional stack used to regenerate the released Wittig UMAP coordinates.
+umap = ["umap-learn==0.5.11", "numba==0.63.1", "llvmlite==0.46.0", "pynndescent==0.5.13"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.setuptools.packages.find]
+include = ["epig_al*"]
